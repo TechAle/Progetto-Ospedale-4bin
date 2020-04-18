@@ -1,0 +1,6 @@
+per potere avviare main.py, prima bisogna scaricare python3.7 per scrivere da terminale il seguente comando:
+pip install -U numpy
+pip install -U pandas
+pip install -U xlsxwriter
+pip install -U difflib
+pip install -U matplotlib
