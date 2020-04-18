@@ -1,511 +1,357 @@
 Nome,Cognome,Ruolo,padiglione,reparto,piano reparto,Numero di telefono,Abitazione,data di nascita
-Fedra,Pelizzone,capo_reparto,a,CARDIOLOGIA 1,3,393729026620,via Aldo n^89,14/7/1989
-Tyson,Fra,equipe_medica,a,CARDIOLOGIA 1,3,393059245605,via Costanza n^30,5/6/1994
-Sigmund,Gravellone,equipe_medica,a,CARDIOLOGIA 1,3,393162456672,via Renata n^53,26/12/1983
-Raimondo,Ricci,equipe_medica,a,CARDIOLOGIA 1,3,393900262533,via Licia n^17,14/9/1998
-Alida,Sposato,equipe_medica,a,CARDIOLOGIA 1,3,393177439038,via Dalila n^80,2/7/1992
-Iole,Schianca,equipe_medica,a,CARDIOLOGIA 1,3,393433008548,via Eglantina n^96,7/5/1981
-Quinzio,Rapetti,equipe_medica,a,CARDIOLOGIA 1,3,393075393155,via Quintiliano n^96,30/10/1999
-Ludmilla,Guastadisegni,equipe_medica,a,CARDIOLOGIA 1,3,393010481626,via Muriel n^79,26/6/1985
-Melania,Orso,equipe_medica,a,CARDIOLOGIA 1,3,393591269379,via Nives n^67,16/3/1991
-Ximena,Livietti,equipe_medica,a,CARDIOLOGIA 1,3,393703482736,via Alda n^59,2/8/1986
-Simona,Prandi,capo_reparto,a,FISICA SANITARIA,-1,393505607373,via Silvano n^70,13/9/1997
-Ulla,Alberio,equipe_medica,a,FISICA SANITARIA,-1,393543161007,via Lara n^48,30/9/1987
-Mirko,Pelizzone,equipe_medica,a,FISICA SANITARIA,-1,393462491997,via Rihanna n^45,8/9/1994
-Doris,Maiocchi,equipe_medica,a,FISICA SANITARIA,-1,393015404177,via Amarilli n^97,8/1/1997
-Ambrogio,Martelli,equipe_medica,a,FISICA SANITARIA,-1,393622505957,via Perseo n^0,21/9/1997
-Diana,Bobbio,equipe_medica,a,FISICA SANITARIA,-1,393702352328,via Enrico n^0,3/10/1988
-Ebe,Innocenti,equipe_medica,a,FISICA SANITARIA,-1,393432568416,via Edelweiss n^19,3/1/1988
-Elsa,Angelini,equipe_medica,a,FISICA SANITARIA,-1,393106736063,via Ottone n^10,25/8/1994
-Rossana,Buffy,equipe_medica,a,FISICA SANITARIA,-1,393904059208,via Silvia n^0,26/4/1983
-Ancilla,Cofano,equipe_medica,a,FISICA SANITARIA,-1,393119424574,via Zoe n^38,17/5/1983
-Ebe,Monzeglio,capo_reparto,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393986858131,via Gilberto n^70,22/6/1980
-Fiore,Berrutti,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393601395584,via Agar n^25,2/2/1996
-Milo,Boccaccio,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393809996764,via Giulio n^51,17/6/1984
-Zada,Rapetti,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393753746340,via Guendalina n^4,14/3/1993
-Einar,Berrutti,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393120775663,via Vassjli n^90,28/2/1986
-Nerina,Izzo,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393512309287,via Noa n^17,3/8/1984
-Giuliana,Martini,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393174096685,via Giovanni n^39,11/7/1997
-Attilio,Pesce,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393979353025,via Aurelio n^71,2/9/1999
-Giuditta,Stelle,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393204991763,via Thelma n^61,29/12/1980
-Adolfo,Lega,equipe_medica,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393648181519,via Rachele n^52,23/3/1999
-Jocelyn,Boggio,capo_reparto,a,MEDICINA INTERNA 1,2,393584270307,via Falco n^97,26/4/1996
-Ursula,Cofano,equipe_medica,a,MEDICINA INTERNA 1,2,393777419188,via Ermes n^65,3/6/1991
-Vincenza,Simeis,equipe_medica,a,MEDICINA INTERNA 1,2,393082762313,via Vissia n^87,7/4/1985
-Massimiliano,Boretti,equipe_medica,a,MEDICINA INTERNA 1,2,393298447271,via Veronica n^81,26/11/1994
-Freya,Fuligni,equipe_medica,a,MEDICINA INTERNA 1,2,393487615862,via Nissa n^6,20/2/1991
-Romana,Benedetto,equipe_medica,a,MEDICINA INTERNA 1,2,393136229847,via Lothar n^13,7/1/1980
-Cornelia,Ruva,equipe_medica,a,MEDICINA INTERNA 1,2,393012735570,via Geltrude n^58,26/10/1992
-Riccarda,Umari,equipe_medica,a,MEDICINA INTERNA 1,2,393831020192,via Milton n^67,11/9/2000
-Lia,Saporita,equipe_medica,a,MEDICINA INTERNA 1,2,393199852922,via Maude n^65,24/8/1985
-Clelia,Ceccobicecco,equipe_medica,a,MEDICINA INTERNA 1,2,393443566379,via Dafne n^77,28/3/2000
-Matteo,Condello,capo_reparto,a,MEDICINA INTERNA 2,4,393291547599,via Oliva n^97,28/5/1982
-Velania,Cassone,equipe_medica,a,MEDICINA INTERNA 2,4,393417700496,via Ambrogio n^91,16/7/1984
-Nicoletta,Fortunato,equipe_medica,a,MEDICINA INTERNA 2,4,393322546385,via Gregorio n^24,4/3/1985
-Ugo,Baccala,equipe_medica,a,MEDICINA INTERNA 2,4,393857999100,via Rinaldo n^23,30/11/1981
-Fiorella,Fratus,equipe_medica,a,MEDICINA INTERNA 2,4,393217915901,via Lorenza n^97,11/5/1998
-Orlena,Adorata,equipe_medica,a,MEDICINA INTERNA 2,4,393235251878,via Aldo n^23,30/10/1999
-Demetrio,Bertoli,equipe_medica,a,MEDICINA INTERNA 2,4,393351586499,via Rosalia n^59,6/6/2000
-Fortunato,Schianca,equipe_medica,a,MEDICINA INTERNA 2,4,393664942806,via Gail n^39,2/4/1994
-Valerio,Surico,equipe_medica,a,MEDICINA INTERNA 2,4,393016576777,via Melvin n^5,12/8/1987
-Igor,Airoldi,equipe_medica,a,MEDICINA INTERNA 2,4,393029717644,via Isabella n^12,14/12/2000
-Donar,Felice,capo_reparto,a,NEUROLOGIA,-2,393413123241,via Vincenza n^62,11/1/1986
-Milena,Renoffio,equipe_medica,a,NEUROLOGIA,-2,393906668860,via Sina n^10,13/4/1999
-Olaf,Longo,equipe_medica,a,NEUROLOGIA,-2,393343029679,via Frida n^18,10/3/1989
-Verena,Simeis,equipe_medica,a,NEUROLOGIA,-2,393036799937,via Mirra n^25,17/1/1992
-Alfio,Incostante,equipe_medica,a,NEUROLOGIA,-2,393831969889,via Eldora n^87,14/6/1985
-Arnaldo,Birba,equipe_medica,a,NEUROLOGIA,-2,393144917353,via Aria n^3,24/1/1990
-Petronilla,Bobbio,equipe_medica,a,NEUROLOGIA,-2,393808384247,via Silvia n^33,24/11/1984
-Raimondo,Condello,equipe_medica,a,NEUROLOGIA,-2,393776358850,via Duilio n^36,12/7/1993
-Ludovico,Carta,equipe_medica,a,NEUROLOGIA,-2,393157912349,via Marilyn n^8,23/6/1980
-Fergal,Vigone,equipe_medica,a,NEUROLOGIA,-2,393933353096,via Loreley n^70,28/4/1984
-Lorenzo,Ceratti,capo_reparto,a,OFTAMOLOGIA,-1,393416856798,via Olaf n^83,12/12/1997
-Egle,Pompi,equipe_medica,a,OFTAMOLOGIA,-1,393651314511,via Clemente n^97,7/6/1994
-Dean,Grivetto,equipe_medica,a,OFTAMOLOGIA,-1,393388799629,via Osvaldo n^61,4/1/1986
-Vittore,Fauser,equipe_medica,a,OFTAMOLOGIA,-1,393503034635,via Malvina n^66,12/4/1982
-Teseo,Conti,equipe_medica,a,OFTAMOLOGIA,-1,393622499501,via Jael n^50,15/1/1994
-Donata,Gatto,equipe_medica,a,OFTAMOLOGIA,-1,393001850985,via Tullio n^57,11/7/1991
-Stella,Cetrangolo,equipe_medica,a,OFTAMOLOGIA,-1,393148541877,via Primavera n^14,22/10/1985
-Augusta,Ostuni,equipe_medica,a,OFTAMOLOGIA,-1,393091988400,via Silvestro n^99,1/4/1992
-Gennaro,Antenucci,equipe_medica,a,OFTAMOLOGIA,-1,393690375279,via Simone n^89,2/9/1981
-Dean,Casella,equipe_medica,a,OFTAMOLOGIA,-1,393141309088,via Vincenza n^84,21/7/1986
-Egeria,Franchetti,capo_reparto,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393041014661,via Tiziana n^56,7/5/1991
-Keith,Boffano,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393822945433,via Era n^76,18/8/1991
-Dagmar,Gravellone,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393627054372,via Massimo n^52,24/6/1998
-Sharon,David,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393323568682,via Rahda n^61,19/3/1999
-Tessa,Salute,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393279921262,via Adimar n^0,29/11/1986
-Domenico,Caprio,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393774877558,via Donato n^74,10/7/1995
-Ashton,ndi,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393523496423,via Fedra n^33,22/4/1988
-Marco,Angelini,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393688441344,via Morana n^96,17/2/2000
-Chandra,Martini,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393491406690,via Vittore n^3,5/9/1989
-Rubina,Immacolata,equipe_medica,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393196883900,via Giuseppe n^5,7/9/2000
-Licia,Taranto,capo_reparto,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393222432311,via Jemina n^47,3/3/1985
-Mainard,Gallo,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393885948224,via Vito n^89,5/2/1998
-Iolanda,Pelizzone,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393306534578,via Ondina n^78,1/1/1992
-Olisa,Ferraiolo,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393864914670,via Marvin n^53,12/2/1994
-Remo,Maiocchi,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393989296692,via Tara n^82,14/7/1989
-Rubina,Cofano,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393203073629,via Dante n^21,6/11/1998
-Robin,Rapetti,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393258677876,via Irma n^56,12/6/1997
-Corrado,Commodo,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393517407439,via Uberto n^96,7/6/1992
-Luce,Colli,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393137674066,via Pico n^57,7/9/1984
-Egeria,Gullotti,equipe_medica,a,UNITÀ DI ELETTROFISIOLOGIA,-1,393816789212,via Vedia n^79,3/6/1992
-Marlow,Innocenti,capo_reparto,b,ANESTESIA E RIANIMAZIONE 1,0,393279783279,via Pia n^36,11/11/1980
-Milton,Gallo,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393955367721,via Pamela n^53,24/3/1996
-Ruben,Rossi,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393354435949,via Daniela n^31,17/2/1985
-Giovanna,Saporita,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393826304070,via Celeste n^57,15/5/1986
-Uberto,Adorata,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393283345321,via Nerina n^58,30/6/1980
-Lilka,Farinelli,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393936505516,via Clelia n^55,18/2/1985
-Demos,Cetrangolo,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393481974717,via Marvin n^94,5/2/1984
-Mario,Bergantin,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393395394920,via Eldora n^43,2/5/1994
-Nissa,Ribaldone,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393433194627,via Sean n^91,11/2/1994
-Ebe,Boccaccio,equipe_medica,b,ANESTESIA E RIANIMAZIONE 1,0,393712477328,via Anastasia n^4,18/8/1980
-Cristiana,Fauser,capo_reparto,b,ANESTESIA E RIANIMAZIONE 2,0,393580530863,via Giulio n^35,26/11/1982
-Delia,Russo,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393688177966,via Marilena n^24,24/6/1999
-Olimpia,Toso,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393040980356,via Ludovica n^8,18/11/1985
-Zita,Colli,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393691667842,via Riccardo n^83,4/4/1995
-Valentina,Ferraiolo,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393873587974,via Thera n^77,14/7/1990
-Dagmar,Martini,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393313834618,via Edith n^41,12/9/1985
-Giulio,Condello,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393253950492,via Marcello n^78,11/11/1994
-Odessa,Patrut,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393665715027,via Melinda n^22,1/10/2000
-Egle,Simeis,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393730068790,via Isidoro n^1,19/1/1987
-Mirina,Dodo,equipe_medica,b,ANESTESIA E RIANIMAZIONE 2,0,393085160806,via Aura n^100,30/7/1983
-Donata,Ceratti,capo_reparto,b,BIOCHIMICA CLINICA,-1,393413997891,via Saverio n^57,2/7/1981
-Viola,Sasso,equipe_medica,b,BIOCHIMICA CLINICA,-1,393631867758,via Leone n^93,14/1/2000
-Italo,Russo,equipe_medica,b,BIOCHIMICA CLINICA,-1,393925440045,via Selvaggia n^53,28/2/1999
-Sunna,Lazter,equipe_medica,b,BIOCHIMICA CLINICA,-1,393161556846,via Maura n^74,10/12/1989
-Silvana,Pirro,equipe_medica,b,BIOCHIMICA CLINICA,-1,393424659209,via Mizar n^35,15/9/1981
-Luca,Amoruso,equipe_medica,b,BIOCHIMICA CLINICA,-1,393439596903,via Mario n^30,27/5/1993
-Teseo,Lazter,equipe_medica,b,BIOCHIMICA CLINICA,-1,393332894917,via Odessa n^84,15/7/1994
-Alfonso,Russo,equipe_medica,b,BIOCHIMICA CLINICA,-1,393187398513,via Sarad n^29,16/2/1985
-Orion,Cornella,equipe_medica,b,BIOCHIMICA CLINICA,-1,393429094125,via Lilka n^36,28/7/1982
-Ennio,Rossetti,equipe_medica,b,BIOCHIMICA CLINICA,-1,393959110457,via Gelsomina n^99,10/9/1995
-Ivano,Bianco,capo_reparto,b,CARDIOCHIRURGIA,2,393632708417,via Maude n^3,11/5/1983
-Esmeralda,Cofano,equipe_medica,b,CARDIOCHIRURGIA,2,393967826876,via Valentino n^93,9/12/1987
-Melvin,Kron,equipe_medica,b,CARDIOCHIRURGIA,2,393916195442,via Rooney n^60,15/9/1981
-Fabiano,Luchi,equipe_medica,b,CARDIOCHIRURGIA,2,393126603913,via Donato n^46,10/3/1992
-Dionigi,Trombi,equipe_medica,b,CARDIOCHIRURGIA,2,393080604882,via Aurea n^99,21/5/1993
-Rhys,Russo,equipe_medica,b,CARDIOCHIRURGIA,2,393516234280,via Federica n^44,24/1/1980
-Vissia,Innocenti,equipe_medica,b,CARDIOCHIRURGIA,2,393985913665,via Sidney n^61,9/5/1986
-Roberto,Renoffio,equipe_medica,b,CARDIOCHIRURGIA,2,393594359656,via Alberta n^30,27/4/2000
-Linda,Foster,equipe_medica,b,CARDIOCHIRURGIA,2,393030863186,via Edda n^94,22/4/1980
-Douglas,Conte,equipe_medica,b,CARDIOCHIRURGIA,2,393160536366,via Verbena n^25,6/9/1982
-Fergal,Ceratti,capo_reparto,b,CARDIOLOGIA 2,-1,393419741269,via Anselmo n^43,29/5/1983
-Giordano,Ingegno,equipe_medica,b,CARDIOLOGIA 2,-1,393925392193,via Brunilde n^20,29/3/1997
-Graham,Bellili,equipe_medica,b,CARDIOLOGIA 2,-1,393395633324,via Baldovino n^92,26/4/1991
-Eletta,Favro,equipe_medica,b,CARDIOLOGIA 2,-1,393061813454,via Takara n^16,1/7/1983
-Brunilde,Fuligni,equipe_medica,b,CARDIOLOGIA 2,-1,393285445141,via Leopoldo n^10,15/12/1999
-Arlena,Livietti,equipe_medica,b,CARDIOLOGIA 2,-1,393732534797,via Orlando n^77,24/2/1991
-Mercedes,Mosso,equipe_medica,b,CARDIOLOGIA 2,-1,393651992873,via Gilda n^53,14/12/1988
-Janez,Surico,equipe_medica,b,CARDIOLOGIA 2,-1,393935664692,via Tea n^5,17/1/1998
-Carmelo,Livietti,equipe_medica,b,CARDIOLOGIA 2,-1,393203585164,via Marvin n^86,29/9/2000
-Ariella,Fangazio,equipe_medica,b,CARDIOLOGIA 2,-1,393629534595,via Alberto n^51,24/11/1984
-Camelia,Gattoni,capo_reparto,b,CHIRURGIA MAXILLO-FACCIALE,3,393707010780,via Publio n^89,24/1/1999
-Filiberto,Lazzarich,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393128138595,via Goffredo n^44,19/5/1991
-Ethel,Coppo,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393160873502,via Dalia n^70,11/12/1992
-Melania,Ricci,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393967979466,via Ivilla n^78,19/6/1996
-Nora,Vivirito,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393901692337,via Glenda n^10,19/5/1983
-Mahina,Zavattaro,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393165734227,via Ubaldo n^89,6/6/1983
-Fabio,Franchetti,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393077054737,via Falco n^24,6/8/1982
-Donata,Pittau,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393624122400,via Shirley n^34,21/3/1980
-Carina,Baroffio,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393463050382,via Martina n^62,12/12/1993
-Nives,Tavolaccini,equipe_medica,b,CHIRURGIA MAXILLO-FACCIALE,3,393943347626,via Lynn n^95,21/11/1987
-Marilyn,Rigamonti,capo_reparto,b,CHIRURGIA TORACICA,2,393549053140,via Eolo n^17,8/6/1984
-Ossian,Pittau,equipe_medica,b,CHIRURGIA TORACICA,2,393714682316,via Leopoldo n^40,14/3/1995
-Eldora,Kofo,equipe_medica,b,CHIRURGIA TORACICA,2,393839332617,via Agata n^62,10/8/1993
-Daniele,Saporita,equipe_medica,b,CHIRURGIA TORACICA,2,393883595918,via Afra n^14,13/2/1986
-Alvaro,Consoli,equipe_medica,b,CHIRURGIA TORACICA,2,393416057435,via Sven n^48,28/10/1998
-Nazario,Nicolosi,equipe_medica,b,CHIRURGIA TORACICA,2,393662749318,via Gastone n^71,16/4/1987
-Luciana,Pollon,equipe_medica,b,CHIRURGIA TORACICA,2,393414981416,via Werther n^92,21/2/1990
-Pamela,Baroffio,equipe_medica,b,CHIRURGIA TORACICA,2,393609130364,via Dina n^100,23/4/1998
-Fortunato,Felotti,equipe_medica,b,CHIRURGIA TORACICA,2,393128735504,via Simona n^5,11/7/1997
-Milo,Gardner,equipe_medica,b,CHIRURGIA TORACICA,2,393787492295,via Douglas n^17,17/8/1981
-Rodolfo,Fangazio,capo_reparto,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393623025848,via Spartaco n^87,5/1/1980
-Yuri,Incostante,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393768534234,via Eligio n^55,6/12/1992
-Vito,Martini,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393969117245,via Moira n^54,11/11/2000
-Benvenuto,Patrut,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393704425078,via Orchidea n^44,11/11/1985
-Beryl,Brucoli,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393132829304,via Fatima n^86,10/12/1982
-Titania,Ferraro,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393026818608,via Sennen n^80,13/11/1996
-Rosaria,Luchi,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393642683301,via Quinto n^75,27/9/1994
-Dolcina,Gusto,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393795127636,via Siro n^4,17/7/1999
-Zorya,Binotti,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393958019068,via Ella n^43,19/3/1991
-Arianna,Zanella,equipe_medica,b,NEUROCHIRURGIA "ENRICO GEUNA",1,393256886184,via Domitilla n^87,27/6/1993
-Alberto,Gaetanino,capo_reparto,b,OTORINOLARINGOIATRIA,3,393268512646,via Yama n^15,20/4/2000
-Tullio,Bocchi,equipe_medica,b,OTORINOLARINGOIATRIA,3,393927568138,via Nara n^48,17/11/2000
-Lorenzo,Benedetto,equipe_medica,b,OTORINOLARINGOIATRIA,3,393954061105,via Riccarda n^54,22/11/1989
-Santina,D’Aloisio,equipe_medica,b,OTORINOLARINGOIATRIA,3,393226418704,via Xenia n^76,20/5/1989
-Annika,Bruschetta,equipe_medica,b,OTORINOLARINGOIATRIA,3,393664902111,via Zahara n^72,23/2/1988
-Ximena,Ingegno,equipe_medica,b,OTORINOLARINGOIATRIA,3,393835104461,via Candido n^0,12/8/1993
-Romeo,Giana,equipe_medica,b,OTORINOLARINGOIATRIA,3,393568276554,via Malka n^84,13/1/1986
-Alda,Adorata,equipe_medica,b,OTORINOLARINGOIATRIA,3,393340947126,via Cristiana n^79,16/12/1987
-Videmar,Colli,equipe_medica,b,OTORINOLARINGOIATRIA,3,393370346266,via Fabrizio n^69,13/3/1985
-Lilka,Mazzini,equipe_medica,b,OTORINOLARINGOIATRIA,3,393329705916,via Flaminia n^52,22/2/1981
-Nasya,Nicolosi,capo_reparto,b,UROLOGIA,4,393788063449,via Wally n^54,17/4/1991
-Michela,Fortina,equipe_medica,b,UROLOGIA,4,393531896739,via Antonio n^14,27/2/1987
-Celeste,Genoni,equipe_medica,b,UROLOGIA,4,393586058930,via Renato n^30,4/7/1982
-Edwin,Marino,equipe_medica,b,UROLOGIA,4,393846512414,via Alia n^75,11/3/2000
-Floriano,Bolamperti,equipe_medica,b,UROLOGIA,4,393395028708,via Olaf n^65,24/5/1991
-Shaina,Gnemmi,equipe_medica,b,UROLOGIA,4,393103427807,via Corinna n^69,5/12/1990
-Anselmo,Conti,equipe_medica,b,UROLOGIA,4,393688310597,via Francesca n^85,6/9/1991
-Quincy,Simeis,equipe_medica,b,UROLOGIA,4,393560778537,via Sergio n^8,3/1/1980
-Augusta,Stelle,equipe_medica,b,UROLOGIA,4,393866198902,via Gunnar n^2,5/8/1980
-Lancelot,Ingrao,equipe_medica,b,UROLOGIA,4,393511922981,via Tiffany n^15,11/7/1980
-Kilian,Pelizzone,capo_reparto,c,CHIRURGIA GENERALE 1,2,393491601241,via Ubaldo n^11,5/9/1992
-Cordelia,Pedrazzoli,equipe_medica,c,CHIRURGIA GENERALE 1,2,393602990535,via Alessia n^43,11/7/2000
-Aroldo,Ferraiolo,equipe_medica,c,CHIRURGIA GENERALE 1,2,393007199305,via Delfino n^62,21/6/1990
-Ediardo,Ruva,equipe_medica,c,CHIRURGIA GENERALE 1,2,393896929049,via Giada n^69,8/5/1999
-Duilio,Paracchini,equipe_medica,c,CHIRURGIA GENERALE 1,2,393193737429,via Bruna n^79,15/7/1995
-Ermes,Feli,equipe_medica,c,CHIRURGIA GENERALE 1,2,393209707391,via Ben n^88,4/8/1986
-Vladimiro,Giana,equipe_medica,c,CHIRURGIA GENERALE 1,2,393901592621,via Allegra n^8,3/11/1995
-Wanda,Rigamonti,equipe_medica,c,CHIRURGIA GENERALE 1,2,393280957948,via Odell n^8,7/7/1982
-Tyler,Surico,equipe_medica,c,CHIRURGIA GENERALE 1,2,393064830007,via Zeno n^86,24/4/1999
-Tea,Haru,equipe_medica,c,CHIRURGIA GENERALE 1,2,393505527970,via Dylan n^84,10/5/1994
-Graziana,Ferrari,capo_reparto,c,CHIRURGIA GENERALE 2,2,393780975613,via Eden n^83,28/5/1985
-Publio,Umari,equipe_medica,c,CHIRURGIA GENERALE 2,2,393538234362,via Emilio n^41,25/7/1991
-Duncan,Gullotti,equipe_medica,c,CHIRURGIA GENERALE 2,2,393205731722,via Emanuele n^75,30/1/1985
-Sibilla,Giana,equipe_medica,c,CHIRURGIA GENERALE 2,2,393595216463,via Simona n^43,22/7/1995
-Pervinca,Cosi,equipe_medica,c,CHIRURGIA GENERALE 2,2,393006041057,via Elvis n^16,9/7/1998
-Rebecca,Mosso,equipe_medica,c,CHIRURGIA GENERALE 2,2,393171980536,via Bella n^7,29/7/1993
-Teo,Righetti,equipe_medica,c,CHIRURGIA GENERALE 2,2,393623480501,via Maia n^90,26/1/1991
-Santino,Bruschetta,equipe_medica,c,CHIRURGIA GENERALE 2,2,393058406613,via Luigi n^48,17/10/1983
-Yama,Rapetti,equipe_medica,c,CHIRURGIA GENERALE 2,2,393605222610,via Mirina n^71,7/6/1993
-Candido,Catinella,equipe_medica,c,CHIRURGIA GENERALE 2,2,393866337948,via Nariano n^82,18/8/1991
-Rhoda,Commodo,capo_reparto,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393683885350,via Clemente n^29,29/11/1993
-Flavio,Pino,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393148836689,via Rooney n^3,30/12/1986
-Leone,Benedetto,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393105754374,via Floriano n^17,8/3/1991
-Guido,tella,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393732212421,via Ediardo n^86,22/6/2000
-Germano,Capuano,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393649025326,via Arturo n^14,7/5/1996
-Galeazzo,Renoffio,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393944309294,via Silvia n^31,19/9/1995
-Italo,Bruschetta,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393282620322,via Agave n^5,4/8/1989
-Matteo,Vallese,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393104953842,via Perla n^34,5/7/1984
-Rosaura,Scullino,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393212716152,via Videmar n^99,13/2/1989
-Esmeralda,Vallese,equipe_medica,c,CHIRURGIA PLASTICA E RICOSTRUTTIVA,2,393152891703,via Gualtiero n^9,4/1/1996
-Azzurra,Giana,capo_reparto,c,CHIRURGIA VASCOLARE,1,393223074933,via Aspasia n^66,22/9/1985
-Godiva,Bellili,equipe_medica,c,CHIRURGIA VASCOLARE,1,393142130785,via Orsola n^53,17/4/1998
-Dario,Monzeglio,equipe_medica,c,CHIRURGIA VASCOLARE,1,393566846037,via Demetrio n^84,14/11/1987
-Euridice,Incostante,equipe_medica,c,CHIRURGIA VASCOLARE,1,393221209941,via Adamo n^75,26/7/1982
-Taras,Foster,equipe_medica,c,CHIRURGIA VASCOLARE,1,393553230043,via Kamar n^41,7/3/1997
-Nella,Ajello,equipe_medica,c,CHIRURGIA VASCOLARE,1,393904254769,via Matilde n^60,27/1/1981
-Gaspare,Rapetti,equipe_medica,c,CHIRURGIA VASCOLARE,1,393191457718,via Donar n^99,30/1/1982
-Filiberto,Orso,equipe_medica,c,CHIRURGIA VASCOLARE,1,393727097333,via Elfo n^94,9/3/1988
-Zorya,Salute,equipe_medica,c,CHIRURGIA VASCOLARE,1,393588595452,via Rihanna n^59,11/2/1988
-Samuele,Paracchini,equipe_medica,c,CHIRURGIA VASCOLARE,1,393594967560,via Lilith n^74,1/9/1985
-Corinna,Ferrari,capo_reparto,c,EMATOLOGIA,3,393845926764,via Savino n^11,12/4/1982
-Ambrogio,Brucoli,equipe_medica,c,EMATOLOGIA,3,393572865902,via Marzio n^14,19/8/1996
-Melinda,Bocchi,equipe_medica,c,EMATOLOGIA,3,393746891675,via Nariano n^80,10/1/1998
-Marzia,Angelini,equipe_medica,c,EMATOLOGIA,3,393229620898,via Rhys n^71,18/8/1993
-Edvige,Monzeglio,equipe_medica,c,EMATOLOGIA,3,393794550176,via Alda n^96,13/12/1982
-Mabel,Bianca,equipe_medica,c,EMATOLOGIA,3,393347039260,via Jason n^60,9/11/1984
-Ilia,Comi,equipe_medica,c,EMATOLOGIA,3,393987918933,via Ginevra n^28,24/2/1987
-Velia,Re,equipe_medica,c,EMATOLOGIA,3,393576227622,via Gennaro n^65,15/1/1994
-Evania,Baietto,equipe_medica,c,EMATOLOGIA,3,393933547253,via Savino n^95,28/3/1997
-Fermo,Mittino,equipe_medica,c,EMATOLOGIA,3,393409539979,via Clizia n^58,23/5/1996
-Teodora,Fortunato,capo_reparto,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393457394049,via Eugenio n^3,9/12/1999
-Damaris,Sal,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393150301580,via Silvano n^95,28/12/1983
-Goffredo,Comi,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393464706841,via Alea n^72,18/8/1983
-Onella,Butera,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393508322251,via Gaetano n^66,30/1/1989
-Mandisa,Vigone,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393618690384,via Marta n^69,29/11/1988
-Alessandro,tella,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393541790650,via Kamar n^16,14/7/1982
-Lancelot,Mazzini,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393161069071,via Mandisa n^16,30/5/1997
-Giuditta,Boffano,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393054495944,via Salvatore n^17,18/3/1990
-Ymer,Bruschetta,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393822641611,via Cameron n^28,30/12/1998
-Isotta,Caprio,equipe_medica,c,MALATTIE DELL'APPARATO RESPIRATORIO,3,393377277991,via Geltrude n^24,19/8/1984
-Camillo,Bianchi,capo_reparto,c,MEDICINA NUCLEARE,-1,393849601188,via Maura n^12,6/9/1986
-Narilla,Franco,equipe_medica,c,MEDICINA NUCLEARE,-1,393699750397,via Curzio n^78,27/11/1983
-Alfio,Mauri,equipe_medica,c,MEDICINA NUCLEARE,-1,393509286734,via Fiore n^59,2/7/1997
-Donar,Vigone,equipe_medica,c,MEDICINA NUCLEARE,-1,393730763125,via Agar n^63,17/10/1983
-Quinto,Mittino,equipe_medica,c,MEDICINA NUCLEARE,-1,393613278148,via Fiona n^19,6/1/1983
-Milo,Izzo,equipe_medica,c,MEDICINA NUCLEARE,-1,393848016104,via Daniela n^52,14/2/1993
-Mildred,Rigamonti,equipe_medica,c,MEDICINA NUCLEARE,-1,393956244655,via Sennen n^9,13/2/1989
-Maria,Kron,equipe_medica,c,MEDICINA NUCLEARE,-1,393661877824,via Leda n^1,27/8/1992
-Fabio,Billia,equipe_medica,c,MEDICINA NUCLEARE,-1,393944604582,via Fabiano n^72,14/7/1997
-Luminosa,Gatto,equipe_medica,c,MEDICINA NUCLEARE,-1,393051286259,via Jason n^69,10/12/1991
-Monica,Condello,capo_reparto,c,RADIODIAGNOSTICA,-1,393235381863,via Leonardo n^78,23/5/1985
-Ferruccio,Marino,equipe_medica,c,RADIODIAGNOSTICA,-1,393560133895,via Ossian n^40,28/9/1989
-Alessia,Franco,equipe_medica,c,RADIODIAGNOSTICA,-1,393308860896,via Nasya n^64,5/5/1981
-Uberto,Bondi,equipe_medica,c,RADIODIAGNOSTICA,-1,393294687242,via Ombretta n^28,4/3/1994
-Giada,Martino,equipe_medica,c,RADIODIAGNOSTICA,-1,393156504538,via Jasmine n^83,19/12/1994
-Yuma,Spank,equipe_medica,c,RADIODIAGNOSTICA,-1,393327659463,via Bianca n^79,15/9/1995
-Massimiliano,Catania,equipe_medica,c,RADIODIAGNOSTICA,-1,393726412802,via Tiziana n^37,5/2/2000
-Alessandro,Caprio,equipe_medica,c,RADIODIAGNOSTICA,-1,393045826068,via Mirina n^55,18/4/1991
-Moreno,Bondi,equipe_medica,c,RADIODIAGNOSTICA,-1,393378785087,via Eleonora n^26,8/3/2000
-Brad,Ruva,equipe_medica,c,RADIODIAGNOSTICA,-1,393943725494,via Ebe n^82,16/4/1982
-Milton,Pesce,capo_reparto,c,RADIOTERAPIA ONCOLOGICA,-1,393742653647,via Guido n^64,26/7/1985
-Verilla,Cassone,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393603472108,via Elvira n^34,13/7/1980
-Franca,Russo,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393870912674,via Vito n^91,10/2/1993
-Liliana,Zotta,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393880856474,via Sennen n^99,8/4/1995
-Erminio,Collauto,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393809211031,via Michela n^50,30/5/1994
-Ferdinando,Fauser,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393288566663,via Matteo n^27,12/10/1986
-Ambra,Bianchi,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393233432437,via Velania n^100,11/4/1994
-Azalea,Capuano,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393241078067,via Saverio n^4,7/11/1985
-Virgilio,Favro,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393264527831,via Preziosa n^77,27/4/1984
-Alea,Conti,equipe_medica,c,RADIOTERAPIA ONCOLOGICA,-1,393715710230,via Rihanna n^29,6/3/1986
-Loreley,Muahmad,capo_reparto,c,UNITA’ DI SENOLOGIA,-1,393011411230,via Angelica n^16,17/11/1980
-Gunnar,Giana,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393779165511,via Douglas n^45,15/2/1987
-Ambra,Rizzi,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393530162558,via Sebastiano n^57,22/12/1990
-Dafne,Gardner,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393711259870,via Sofia n^16,15/3/1989
-Vedia,Foster,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393835168924,via Ezio n^90,27/8/1992
-Chandra,Mazzini,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393160316307,via Manlio n^23,27/2/1985
-Delfino,Patrut,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393690806691,via Primo n^46,27/6/1980
-Guido,Gatto,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393476862340,via Mirra n^73,24/3/1982
-Onella,Allegra,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393426229414,via Savino n^94,26/5/1996
-Ada,Pezzopane,equipe_medica,c,UNITA’ DI SENOLOGIA,-1,393666598908,via Porthos n^4,27/4/1989
-Tullio,Muahmad,capo_reparto,d,ANATOMIA PATOLOGICA,0,393071063818,via Zoe n^61,26/4/1986
-Vissia,Monzeglio,equipe_medica,d,ANATOMIA PATOLOGICA,0,393216896759,via Iorio n^93,4/8/1997
-Maura,Gardner,equipe_medica,d,ANATOMIA PATOLOGICA,0,393741615905,via Paride n^30,16/5/1997
-Saverio,Pedrazzoli,equipe_medica,d,ANATOMIA PATOLOGICA,0,393096425676,via Faith n^81,27/2/1986
-Isotta,Zanoli,equipe_medica,d,ANATOMIA PATOLOGICA,0,393251865136,via Tullia n^97,22/7/1999
-Preziosa,Binotti,equipe_medica,d,ANATOMIA PATOLOGICA,0,393084228877,via Alessandro n^82,28/5/2000
-Ryan,Rossi,equipe_medica,d,ANATOMIA PATOLOGICA,0,393515279454,via Riccardo n^57,30/10/1985
-Dante,Brustia,equipe_medica,d,ANATOMIA PATOLOGICA,0,393004076968,via Medardo n^74,15/7/1993
-Maude,Zanoli,equipe_medica,d,ANATOMIA PATOLOGICA,0,393018361500,via Camelia n^32,4/11/1984
-Cirillo,Russo,equipe_medica,d,ANATOMIA PATOLOGICA,0,393856629141,via Fulvio n^89,25/5/1992
-Leone,Vallese,capo_reparto,d,FARMACIA OSPEDALIERA,-2,393928851106,via Fabrizio n^15,13/6/1985
-Joel,Collauto,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393877121033,via Ivan n^78,26/1/1990
-Novella,Fortina,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393340114013,via Zuleika n^59,24/4/1995
-Malvina,Colasanto,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393311018860,via Virginio n^33,25/7/1995
-Melinda,Cofano,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393076616194,via Paola n^9,2/7/1998
-Rosa,Marchetti,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393558961994,via Ilda n^56,16/7/1995
-Dino,Brustia,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393543754386,via Zoe n^73,3/7/1983
-Clelia,Ingegno,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393642269071,via Wally n^79,7/5/1995
-Porthos,Zanella,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393919528552,via Valeria n^12,23/4/1989
-Mafalda,Sogni,equipe_medica,d,FARMACIA OSPEDALIERA,-2,393682416508,via Orso n^59,30/6/1990
-Maurizia,Gatta,capo_reparto,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393861184077,via Danae n^47,1/2/1990
-Levia,Pompi,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393418976898,via Valentina n^29,4/5/2000
-Aldo,Rosa,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393071599598,via Ymer n^44,21/11/1984
-Dorotea,Comi,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393310420641,via Kim n^92,21/12/1999
-Owen,Ajello,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393837933681,via Gerardo n^13,20/1/1997
-Dela,Felotti,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393983621390,via Nem n^35,13/1/1991
-Vasco,Bruschetta,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393105435385,via Cirillo n^2,23/11/1995
-Amina,Martini,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393867811000,via Edith n^59,15/12/1994
-Doris,Zanoli,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393597147176,via Afra n^23,26/6/1985
-Salomè,Pino,equipe_medica,d,ORTOPEDIA E TRAUMATOLOGIA,-2,393124848065,via Tommaso n^16,24/12/1988
-Romano,Colasanto,capo_reparto,e,CHIRURGIA PEDIATRICA,1,393960362013,via Gustavo n^62,6/3/1997
-Ymir,Bruschetta,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393609588998,via Querida n^27,16/1/1986
-Gabriele,Vanrava,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393650646496,via Ermes n^32,27/2/1995
-Linus,Feli,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393695201968,via Sharar n^0,1/12/1989
-Orio,Gilodi,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393987823119,via Filippo n^51,11/12/1998
-Luigia,Nicolosi,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393782147339,via Gaia n^23,30/3/1991
-Alda,Caino,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393160870723,via Olaf n^90,17/11/2000
-Fillide,Giorddano,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393167089953,via Demetrio n^91,5/9/1982
-Danae,Canavese,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393294232011,via Ford n^42,27/8/1992
-Flaminia,Taveggia,equipe_medica,e,CHIRURGIA PEDIATRICA,1,393375775461,via Antonio n^89,5/6/1980
-Carla,Brucoli,capo_reparto,e,MICROBIOLOGIA E VIROLOGIA,-1,393078111275,via Nadia n^77,21/4/1996
-Bruno,Casella,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393759936244,via Licia n^56,24/10/1984
-Sakura,Boretti,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393960562209,via Manlio n^57,17/12/1998
-Cinzia,Felotti,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393118406617,via Mintha n^21,23/6/1997
-Cesare,Mastromarino,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393444911160,via Edith n^98,28/4/1999
-Drusiana,Colombo,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393751837033,via Paralda n^78,25/1/2000
-Luna,Billia,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393759278408,via Viviana n^85,19/3/1996
-Bruna,Rossetti,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393189468827,via Adele n^39,10/4/1992
-Adorno,Allegra,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393241984239,via Cristina n^46,30/8/2000
-Nicoletta,Poglio,equipe_medica,e,MICROBIOLOGIA E VIROLOGIA,-1,393135507528,via Augusta n^62,23/5/1991
-Curzio,Ceratti,capo_reparto,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393743780607,via Gabriele n^3,26/5/1995
-Jader,Foster,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393834837582,via Lanfranco n^18,18/7/1986
-Malka,Simeis,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393985074761,via Marvin n^30,29/4/1999
-Gabriele,Toscano,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393256829512,via Sheila n^32,8/7/1998
-Fortuna,Condello,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393152574198,via Fatima n^50,17/7/1983
-Verbena,Bellora,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393826446674,via Selene n^67,11/9/1980
-Ermes,Marchioro,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393235693594,via Claudia n^25,21/1/1998
-Augusto,Orso,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393036354026,via Genziana n^86,22/12/1999
-Sarad,Benedetto,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393516010072,via Severo n^46,4/3/1981
-Augusta,Diotallevi,equipe_medica,e,NEFROLOGIA - CENTRO TRAPIANTI RENE,1,393106185431,via Sibilla n^54,20/7/1994
-Diva,Ceccobicecco,capo_reparto,e,NEFROLOGIA - DIALISI,-2,393162263057,via Ebe n^1,24/11/1982
-Aretha,Coppo,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393427829848,via Valeria n^66,15/8/1991
-Mirra,Colli,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393366588151,via Thelma n^33,25/5/1991
-Quirino,Boccaccio,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393124623225,via Alarico n^22,10/2/1981
-Italo,Schianca,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393149759547,via Orso n^24,1/6/1993
-Lee,Caino,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393605753708,via Fernanda n^27,11/9/2000
-Malik,Osello,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393953695309,via Svetlana n^31,5/11/1984
-Vittorio,Gamberoni,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393537855630,via Ebe n^93,24/12/1985
-Belinda,Delrosso,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393226679373,via Enrica n^55,3/6/1999
-Mabel,Feli,equipe_medica,e,NEFROLOGIA - DIALISI,-2,393406620693,via Virgilio n^30,4/10/1983
-Fabio,Bruschetta,capo_reparto,e,NEUROPSICHIATRIA INFANTILE,0,393088302203,via Graham n^90,19/3/1999
-Moanna,Ricci,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393544890055,via Samuele n^26,21/12/1987
-Caterina,Buffy,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393525005138,via Jonathan n^62,16/5/1992
-Ariella,Pedulla,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393982361098,via Pisana n^54,21/4/1990
-Annika,Baietto,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393716608374,via Jaron n^78,8/6/1997
-Benvenuto,Lupo,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393566367670,via Melody n^76,1/12/2000
-Adriel,Umari,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393520787220,via Levi n^44,17/2/1985
-Melba,Gattoni,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393244101053,via Zita n^66,4/7/1989
-Sven,Ajello,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393204839278,via Ilia n^26,24/2/1982
-Raimonda,Pelizzone,equipe_medica,e,NEUROPSICHIATRIA INFANTILE,0,393001295987,via Pisana n^16,28/12/1988
-Giona,Patrut,capo_reparto,e,ONCOLOGIA,4,393794389364,via Asteria n^84,7/6/1992
-Pico,Longo,equipe_medica,e,ONCOLOGIA,4,393208017520,via Daisy n^41,16/11/1992
-Alice,Rapetti,equipe_medica,e,ONCOLOGIA,4,393877271526,via Aretha n^43,15/9/1988
-Alhena,Costa,equipe_medica,e,ONCOLOGIA,4,393864692138,via Amarilli n^17,15/10/2000
-Elga,Fortunato,equipe_medica,e,ONCOLOGIA,4,393396464679,via Owen n^26,2/12/1998
-Corinna,Buccheri,equipe_medica,e,ONCOLOGIA,4,393787876537,via Jader n^63,26/2/1995
-Nella,Bruno,equipe_medica,e,ONCOLOGIA,4,393126590503,via Patrizia n^95,11/7/1983
-Beatrice,Colombo,equipe_medica,e,ONCOLOGIA,4,393270833109,via Beniamino n^68,9/7/1998
-Camilla,Ceriani,equipe_medica,e,ONCOLOGIA,4,393812840172,via Bud n^30,7/8/1991
-Vega,Caprio,equipe_medica,e,ONCOLOGIA,4,393187174643,via Talia n^31,11/8/1983
-Cordelia,Bergantin,capo_reparto,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393605096644,via Aurelio n^52,2/9/1996
-Noa,Casella,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393317927141,via Narilla n^91,30/2/1995
-Silvano,Sogni,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393827642214,via Alan n^41,13/3/1982
-Eglantina,Saporita,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393472645706,via Contessa n^83,24/5/1991
-Fabrizia,Kaleem,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393572273512,via Delizia n^36,27/5/1987
-Mattia,Taveggia,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393967124990,via Isidoro n^55,6/5/1999
-Caterina,Gardner,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393419996912,via Matteo n^48,24/4/1997
-Giuseppe,Vallese,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393889064939,via Livio n^83,24/8/1992
-Senta,Freni,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393929580174,via Prisco n^86,26/10/1991
-Mercedes,Alighieri,equipe_medica,e,ORTOPEDIA E TRAUMATOLOGIA PEDIATRICA,1,393615274840,via Ghino n^85,11/11/1989
-Angela,Ingrao,capo_reparto,e,OSTETRICIA E GINECOLOGIA,-1,393081975005,via Moira n^8,5/4/1986
-Wolfgang,Patrut,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393062330146,via Aurelio n^93,6/7/1982
-Olga,Antenucci,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393378078474,via Alma n^90,8/10/1981
-Leon,Lazzarich,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393890548569,via Afra n^58,15/10/1987
-Franco,tella,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393726084008,via Uriel n^93,10/8/1996
-Irene,Naldi,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393471942404,via Madonna n^11,25/5/1993
-Marco,Fra,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393661801345,via Ludovica n^58,2/6/1988
-Jader,Forgnone,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393816735743,via Oriana n^38,21/9/1997
-Emanuele,Casella,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393199112631,via Lea n^46,15/7/1989
-Prisco,Nicali,equipe_medica,e,OSTETRICIA E GINECOLOGIA,-1,393059387352,via Luana n^50,19/3/1995
-Doriana,Grivetto,capo_reparto,e,PEDIATRIA,1,393883800945,via Letizia n^5,22/11/1999
-Sebastiano,Santo,equipe_medica,e,PEDIATRIA,1,393922722746,via Oreste n^57,2/12/1990
-Siro,Rossi,equipe_medica,e,PEDIATRIA,1,393030405926,via Albino n^81,1/9/1996
-Nicola,Ribaldone,equipe_medica,e,PEDIATRIA,1,393303189138,via Bernardo n^91,5/6/1987
-Eliana,Franco,equipe_medica,e,PEDIATRIA,1,393300816332,via Giovanna n^48,2/9/1993
-Primavera,Fra,equipe_medica,e,PEDIATRIA,1,393538382898,via Rossella n^98,12/1/1987
-Iolanda,Patane,equipe_medica,e,PEDIATRIA,1,393448325954,via Livio n^42,15/9/1980
-Orso,Zanella,equipe_medica,e,PEDIATRIA,1,393539729058,via Camillo n^61,23/9/2000
-Aleramo,Mortale,equipe_medica,e,PEDIATRIA,1,393281201525,via Nella n^45,12/7/1980
-Quirino,Mastromarino,equipe_medica,e,PEDIATRIA,1,393679781903,via Giotto n^21,16/10/1984
-Ford,Pirro,capo_reparto,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393585762466,via Malcom n^28,28/11/1986
-Paride,Morello,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393542207630,via Clizia n^71,27/11/1997
-Pietro,Martelli,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393828490420,via Erminio n^3,28/2/2000
-Cesara,Franco,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393336370287,via Roberta n^54,11/4/1998
-Davide,Passana,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393744577274,via Damaris n^2,23/6/1992
-Agnese,Patane,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393295760554,via Donar n^57,15/8/1997
-Leo,Toscano,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393629372564,via Thelma n^46,30/10/1994
-Isotta,Abeles,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393568787907,via Pico n^38,3/3/1988
-Beniamino,Ferrari,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393405297950,via Enza n^63,23/1/1996
-Ivano,Pollon,equipe_medica,e,SCIENZA DELL'ALIMENTAZIONE E DIETETICA,-2,393041665798,via Fernando n^81,24/4/1992
-Barbara,Cassone,capo_reparto,e,TERAPIA INTENSIVA NEONATALE,1,393527391578,via Giordano n^14,30/12/1989
-Cora,Ceffa,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393497316563,via Thelma n^72,3/3/1985
-Salomè,Umari,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393737128212,via Ermes n^33,8/5/1998
-Zelia,Trombi,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393379095831,via Giona n^90,4/2/1993
-Zak,Sasso,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393365850873,via Ulla n^95,15/7/1989
-Ariele,Costa,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393113986318,via Tiziano n^87,3/11/1990
-Rossana,Feli,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393205922781,via Imera n^99,1/5/1997
-Chandra,Benvenuto,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393174273778,via Elsa n^57,19/8/1995
-Waldo,Fortunato,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393507056547,via Sabrina n^81,23/7/1997
-Liala,Pelizzone,equipe_medica,e,TERAPIA INTENSIVA NEONATALE,1,393640044392,via Calypso n^5,19/12/1994
-Alida,Re,capo_reparto,f,MALATTIE INFETTIVE,1,393314512775,via Takara n^29,16/8/1989
-Giacomo,Ollano,equipe_medica,f,MALATTIE INFETTIVE,1,393208503844,via Romolo n^45,27/4/1991
-Andromeda,Colasanto,equipe_medica,f,MALATTIE INFETTIVE,1,393498394559,via Orlando n^68,2/12/1984
-Andreina,Commodo,equipe_medica,f,MALATTIE INFETTIVE,1,393565152926,via Manlio n^44,15/4/1981
-Cedric,Comi,equipe_medica,f,MALATTIE INFETTIVE,1,393369037526,via Nora n^40,18/7/1993
-Fausta,Martino,equipe_medica,f,MALATTIE INFETTIVE,1,393072831161,via Angelica n^9,22/5/1990
-Monica,Ruva,equipe_medica,f,MALATTIE INFETTIVE,1,393535724902,via Iorio n^32,20/4/1992
-Simona,Marino,equipe_medica,f,MALATTIE INFETTIVE,1,393954739831,via Madonna n^1,21/10/1997
-Gerda,Cornella,equipe_medica,f,MALATTIE INFETTIVE,1,393263609743,via Shanti n^13,9/7/1980
-Gioia,Boccardi,equipe_medica,f,MALATTIE INFETTIVE,1,393331157840,via Zeno n^95,23/4/1993
-Shaula,Ferraro,capo_reparto,g,CASA DI CURA,1,393711226620,via Dolores n^18,12/8/1998
-Franco,Comi,equipe_medica,g,CASA DI CURA,1,393610549331,via Alcina n^29,6/2/1992
-Leo,Passana,equipe_medica,g,CASA DI CURA,1,393713440858,via Dante n^99,3/5/1982
-Armida,Boccardi,equipe_medica,g,CASA DI CURA,1,393896715980,via Ernesto n^92,26/10/1998
-Milena,Re,equipe_medica,g,CASA DI CURA,1,393897332513,via Calypso n^39,23/7/1994
-Melantha,Lazter,equipe_medica,g,CASA DI CURA,1,393933793332,via Daria n^99,9/6/1982
-Cristiano,Supercalifragilistichespiralitoso,equipe_medica,g,CASA DI CURA,1,393870676837,via Carmelo n^92,25/12/1997
-Rowena,Simeis,equipe_medica,g,CASA DI CURA,1,393029429601,via Giovanni n^88,27/8/1991
-Bibiana,Vanrava,equipe_medica,g,CASA DI CURA,1,393209011202,via Fernando n^91,2/6/1998
-Edgardo,Feli,equipe_medica,g,CASA DI CURA,1,393793829923,via Ossian n^95,9/7/1998
-Frine,Favro,capo_reparto,g,DERMATOLOGIA E VENEREOLOGIA,-2,393531703823,via Isabella n^85,23/1/1982
-Aramis,Bergantin,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393567233462,via Morena n^80,12/1/1996
-Leandro,Calleri,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393379953222,via Robin n^59,1/2/1999
-Bjorn,Kron,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393282555545,via Lonella n^4,17/2/1990
-Amaranta,Gullotti,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393471783272,via Penelope n^14,8/10/1986
-Enrico,Martini,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393235929361,via Dante n^34,2/7/1991
-Dino,Luchi,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393830047120,via Yuma n^88,21/2/1993
-Nicola,Mauri,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393520027783,via Keith n^27,15/7/1987
-Cruz,Guastadisegni,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393467853286,via Costanza n^5,20/12/1992
-Romina,Saporita,equipe_medica,g,DERMATOLOGIA E VENEREOLOGIA,-2,393348043948,via Fergal n^4,22/11/1982
-Marcella,Pinna,capo_reparto,g,ENDOCRINOLOGIA,-1,393430530775,via Luca n^9,4/6/1984
-Vesta,Calleri,equipe_medica,g,ENDOCRINOLOGIA,-1,393234178734,via Altair n^8,7/6/1991
-Emilio,Gava,equipe_medica,g,ENDOCRINOLOGIA,-1,393002894838,via Giorgio n^79,27/1/1982
-Elga,Marchioro,equipe_medica,g,ENDOCRINOLOGIA,-1,393069329767,via Dylan n^72,28/4/1987
-Genoveffa,Blanda,equipe_medica,g,ENDOCRINOLOGIA,-1,393946697132,via Giorgio n^46,8/9/1989
-Leo,Ingrao,equipe_medica,g,ENDOCRINOLOGIA,-1,393735631313,via Elda n^30,4/2/2000
-Teo,Gusto,equipe_medica,g,ENDOCRINOLOGIA,-1,393800510964,via Sunna n^23,3/9/1994
-Orlena,Ingegno,equipe_medica,g,ENDOCRINOLOGIA,-1,393119334800,via Dino n^80,30/7/2000
-Manlio,Canavese,equipe_medica,g,ENDOCRINOLOGIA,-1,393302437349,via Ginevra n^51,6/3/1982
-Marino,Stimolo,equipe_medica,g,ENDOCRINOLOGIA,-1,393238044705,via Lia n^1,21/1/1997
-Carina,Brucoli,capo_reparto,g,GASTROENTEROLOGIA,2,393156816558,via Luciana n^0,10/3/1992
-Romilda,Strigaro,equipe_medica,g,GASTROENTEROLOGIA,2,393494194466,via Ennio n^73,12/2/1990
-Graziana,Nicali,equipe_medica,g,GASTROENTEROLOGIA,2,393957482457,via Asteria n^52,1/8/1999
-Orchidea,Surico,equipe_medica,g,GASTROENTEROLOGIA,2,393304221812,via Melania n^59,7/3/1990
-Flaminia,Patrut,equipe_medica,g,GASTROENTEROLOGIA,2,393477316493,via Fermo n^0,25/8/1992
-Veronica,Genoni,equipe_medica,g,GASTROENTEROLOGIA,2,393222555419,via Viviana n^71,15/7/1995
-Noemi,Ceffa,equipe_medica,g,GASTROENTEROLOGIA,2,393855526251,via Godiva n^36,29/4/1998
-Sofia,Russo,equipe_medica,g,GASTROENTEROLOGIA,2,393239775619,via Godiva n^37,15/4/1992
-Freya,Toso,equipe_medica,g,GASTROENTEROLOGIA,2,393625879631,via Michela n^79,10/3/2000
-Mainard,Umari,equipe_medica,g,GASTROENTEROLOGIA,2,393471736655,via Floriano n^6,13/1/1984
-Paola,Felotti,capo_reparto,g,PSICHIATRIA,0,393545270116,via Brigida n^18,5/3/1994
-Cristiano,Grivetto,equipe_medica,g,PSICHIATRIA,0,393479224903,via Santino n^73,16/10/1985
-Fedra,Fauser,equipe_medica,g,PSICHIATRIA,0,393933737912,via Preziosa n^100,2/4/1993
-Moreno,Cassone,equipe_medica,g,PSICHIATRIA,0,393473212748,via Eudora n^100,21/4/1989
-Arianna,Gatti,equipe_medica,g,PSICHIATRIA,0,393778770045,via Lamberto n^95,13/11/1988
-Shaina,Gatti,equipe_medica,g,PSICHIATRIA,0,393829810921,via Gerda n^99,15/4/1981
-Sakura,Zanella,equipe_medica,g,PSICHIATRIA,0,393133090309,via Flaminio n^90,12/9/1989
-Pietro,Ricci,equipe_medica,g,PSICHIATRIA,0,393069995871,via Eros n^77,7/10/1986
-Euro,Fortina,equipe_medica,g,PSICHIATRIA,0,393914395108,via Pandia n^44,7/7/1987
-Rubina,Baccala,equipe_medica,g,PSICHIATRIA,0,393574181993,via Eudora n^13,7/5/1992
-Chandra,Ricci,capo_reparto,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393734132726,via Caio n^21,16/7/1984
-Luminosa,Ferraro,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393938581506,via Moanna n^57,24/10/1990
-Brad,Lixi,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393557170525,via Alessio n^90,28/5/1995
-Zoe,Berrutti,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393518739111,via Ferdinando n^26,13/11/1990
-Galeazzo,Umari,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393385735387,via Odilia n^36,29/7/1985
-Liala,Samara,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393444313124,via Romano n^57,25/7/1985
-Ghino,Buffy,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393347248128,via Sean n^86,30/4/1982
-Dora,Supercalifragilistichespiralitoso,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393650347692,via Eleonora n^14,7/12/1999
-Ivan,Tarletti,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393669237194,via Jafar n^64,2/3/1989
-Guendalina,Borello,equipe_medica,h,DIREZIONE SANITARIA DEI PRESIDI OSPEDALIERI,2,393176733232,via Porzia n^84,26/6/1984
-Erasmo,Renoffio,capo_reparto,h,MEDICINA TRASFUSIONALE,1,393845776192,via Gustavo n^65,5/10/1997
-Sem,Adorata,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393264818004,via Pio n^30,18/3/1997
-Euridice,Baccala,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393365167440,via Nora n^55,16/9/1983
-Quincy,Pompi,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393365746080,via Ebe n^61,12/8/1982
-Medea,Giorgione,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393185530593,via Sabrina n^70,24/10/1999
-Gennaro,Gnemmi,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393058158307,via Kira n^68,11/3/1984
-Roberto,Ingrao,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393953279432,via Alina n^35,26/3/1983
-Quirino,Bellili,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393090834996,via Gioia n^77,9/3/1990
-Remo,Fauser,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393856257962,via Berta n^53,4/10/1992
-Douglas,Fortina,equipe_medica,h,MEDICINA TRASFUSIONALE,1,393895142698,via Jaron n^39,9/5/1984
+Giuseppe,Patti,Capo reparto,a,CARDIOLOGIA 1,3,393152680032,via Tiziana n^68,24/2/1985
+Ilaria,BELLACOSAMiriam,Equip,a,CARDIOLOGIA 1,3,393746713004,via Senta n^81,5/5/1994
+Barbara,CANNILLO,Equip,a,FISICA SANITARIA,-1,393497489771,via Isidoro n^6,25/5/1980
+Andrea,D’ALESSIO,Equip,a,FISICA SANITARIA,-1,393140104285,via Ariella n^85,8/3/2000
+Roberta,MATHEOUD,Equip,a,FISICA SANITARIA,-1,393140104285,via Lorenzo n^24,25/4/1980
+Eleonora,MONES,Equip,a,FISICA SANITARIA,-1,393007786246,via Tiziana n^67,6/6/1985
+Eleonora,NEGRI,Equip,a,FISICA SANITARIA,-1,393007786246,via Giuditta n^62,4/10/1986
+Antonella,OSTAN,Equip,a,FISICA SANITARIA,-1,393007786246,via Romina n^89,8/7/1999
+Federica,PURICELLI,Equip,a,FISICA SANITARIA,-1,393007786246,via Flavio n^68,14/6/1987
+Chiara,SECCO,Equip,a,FISICA SANITARIA,-1,393007786246,via Iole n^94,27/6/1992
+Giuseppe,BARBERA,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393007786246,via Noemi n^50,26/9/1994
+Filippo,BATTAGLIA,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393007786246,via Egeria n^11,27/1/1983
+Marcello,BIGLIOCCA,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Giunia n^1,25/1/1989
+Matteo,BRUSTIA,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Alessio n^58,4/11/1994
+Francesco,CARUGNO,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Vasco n^71,29/3/1985
+Luigi,Mario,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Mario n^8,12/6/1988
+Francesca,CORLIANO,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Roberto n^67,16/6/1980
+Paola,FANCHINI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393169970777,via Moreno n^89,14/1/1997
+Lisa,FRANZOSI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Andrea n^81,9/2/1981
+Francesca,GUIDETTI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Cristiana n^29,25/11/1982
+Annamaria,LIMONCINI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Frine n^89,2/6/1987
+Alessandro,MARINOSCI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Elissa n^70,28/12/1981
+Anna,MARTONE,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Ross n^92,9/7/1992
+Paola,MARTINO,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Dean n^69,3/12/1999
+Mirta,MENEGATTI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Serena n^21,9/7/1989
+Rossella,MOLINARI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Nolan n^15,23/6/1990
+Alessandra,ROSINA,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Cesara n^14,25/10/1985
+Luca,ROSSI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Odessa n^92,3/9/1990
+Sergio,STURIALE,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Alfredo n^43,12/7/1989
+Isabella,ZANOTTI,Equip,a,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393140104285,via Feliciano n^7,10/2/1995
+Fabio,BRUSTIA,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Norma n^51,20/3/1987
+Elisa,CERIANI,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Paralda n^84,6/7/1985
+Stefano,FANGAZIO,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Sivio n^12,2/10/1988
+Gian,Paolo,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Geltrude n^61,21/6/1990
+Roberta,PEDRAZZOLI,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Douglas n^70,13/8/1990
+Rachele,RAPETTI,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Marina n^58,30/12/1992
+Cristina,RIGAMONTI,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Odessa n^71,24/8/1984
+Sola,DANIELE,Equip,a,MEDICINA INTERNA 1,2,393140104285,via Celeste n^58,13/2/1998
+Flavio,BOBBIO,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Soledad n^35,2/1/1989
+Piermario,GNEMMI,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Battista n^93,24/3/1991
+Renata,PARACCHINI,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Michela n^1,17/4/1998
+Sergio,PITTAU,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Fabrizio n^61,1/12/2000
+Roberta,RE,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Iolanda n^28,2/12/2000
+Antonello,ROSSI,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Ortensia n^97,7/1/1987
+Tiziana,SCULLINO,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Olimpia n^27,18/4/1997
+Giuseppe,ZACCALA,Equip,a,MEDICINA INTERNA 2,4,393140104285,via Guicciardo n^98,17/5/1980
+Laura,BOLAMPERTICristoforo,Equip,a,NEUROLOGIA,3,393140104285,via Goliard n^56,19/2/1999
+Micol,Ester,Equip,a,OFTAMOLOGIA,-1,393140104285,via Ida n^92,13/2/1993
+Daniele,BATTISTELLO,Equip,a,OFTAMOLOGIA,-1,393140104285,via Alessandra n^59,27/2/2000
+Antonella,CLEMENTE,Equip,a,OFTAMOLOGIA,-1,393140104285,via Isotta n^8,10/12/1982
+Massimo,COFFANO,Equip,a,OFTAMOLOGIA,-1,393140104285,via Gualtiero n^46,10/10/1994
+Annita,FIORENTINO,Equip,a,OFTAMOLOGIA,-1,393423201431,via Adimar n^17,24/1/1980
+Andrea,MURACA,Equip,a,OFTAMOLOGIA,-1,393423201431,via Sirena n^47,1/3/1996
+Raffaella,TORCHIO,Equip,a,OFTAMOLOGIA,-1,393423201431,via Fedele n^9,11/6/1983
+Stela,VUJOSEVIC,Equip,a,OFTAMOLOGIA,-1,393423201431,via Idalia n^70,17/2/1991
+Fabiola,SANNA,Equip,a,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393423201431,via Enea n^38,24/5/1986
+Giuseppe,Patti,Capo reparto,b,CARDIOLOGIA 1,3,393423201431,via Tazio n^93,12/7/1985
+Cleto,ANTONINI,Equip,b,CARDIOLOGIA 1,3,393423201431,via Simeone n^16,2/11/1983
+Valentina,BERGAMASCHI,Equip,b,CARDIOLOGIA 1,3,393361842892,via Fabiano n^35,27/11/1980
+Paola,BERNI,Equip,b,CARDIOLOGIA 1,3,393361842892,via Tito n^87,28/2/1998
+Enrico,BELLOTTI,Equip,b,CARDIOLOGIA 1,3,393361842892,via Danae n^24,10/11/1998
+Barbara,BUCCI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Speranza n^88,16/10/1993
+Pierluigi,CALDARA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Linda n^97,6/9/1989
+Gianmaria,CAMMAROTA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Ladislao n^75,9/7/1983
+Laura,CANCELLIERE,Equip,b,CARDIOLOGIA 1,3,393128376272,via Yvonne n^27,21/5/1988
+Manuela,CANDRIELLA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Agave n^79,1/7/1988
+Paola,CASAROTTI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Acantha n^18,2/8/1984
+Valeria,CASTOLDI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Amina n^13,29/3/1999
+Gian,Paolo,Equip,b,CARDIOLOGIA 1,3,393128376272,via Frine n^66,8/8/1996
+Carlo,CEFFA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Fiorenzo n^6,8/3/2000
+Davide,COLOMBO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Kira n^28,28/10/1987
+Federica,DAMNOTTI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Ariella n^0,1/3/1981
+Paolo,DONATO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Flaminia n^17,12/7/1993
+Jessica,FACCHIN,Equip,b,CARDIOLOGIA 1,3,393128376272,via Beatrice n^99,2/12/1981
+Sara,FRACON,Equip,b,CARDIOLOGIA 1,3,393128376272,via Ippolita n^39,23/7/1995
+Tania,GENOVESE,Equip,b,CARDIOLOGIA 1,3,393128376272,via Aimeè n^49,5/11/1997
+Francesca,GROSSI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Indro n^36,9/2/1984
+Simona,GUANI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Frida n^90,3/4/1985
+Stefania,GUIDO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Rosaria n^75,17/10/1996
+Petra,Angelika,Equip,b,CARDIOLOGIA 1,3,393128376272,via Elia n^30,11/2/1991
+Maria,Cristina,Equip,b,CARDIOLOGIA 1,3,393128376272,via Ermes n^25,4/10/1990
+Calogero,MENDOLA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Germano n^50,28/7/1995
+Grazia,MENEGHETTI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Barbara n^86,20/1/1982
+Claudia,MONTAGNINI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Adriana n^14,22/12/1992
+Paola,MONTAGUTI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Gavin n^94,8/6/1986
+Elena,PAOLETTI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Dario n^72,14/11/1989
+Raffaella,PERUCC,Equip,b,CARDIOLOGIA 1,3,393128376272,via Pio n^90,6/2/1982
+Tizian,PICIUCCO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Paride n^48,7/9/1989
+Stefania,RAFFA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Marcella n^20,6/2/1987
+Alba,RIPOLL,Equip,b,CARDIOLOGIA 1,3,393128376272,via Viridiana n^7,3/3/1980
+Corrado,ROSSITTO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Candido n^84,22/1/1983
+Andrea,SALA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Orio n^39,25/3/1997
+Luminita,Ioana,Equip,b,CARDIOLOGIA 1,3,393128376272,via Mirko n^20,10/4/1998
+Roberto,Luigi,Equip,b,CARDIOLOGIA 1,3,393128376272,via Carla n^1,14/9/1984
+Valeria,VIARENGO,Equip,b,CARDIOLOGIA 1,3,393128376272,via Gavin n^96,16/3/1999
+Gianluca,VIGNAZIA,Equip,b,CARDIOLOGIA 1,3,393128376272,via Elvira n^44,6/10/1986
+Marta,ZANONI,Equip,b,CARDIOLOGIA 1,3,393128376272,via Silvano n^47,8/11/1993
+Riccardo,BOSSO,Equip,b,FISICA SANITARIA,-1,393128376272,via Prisco n^0,11/11/1986
+Barbara,GIAMUNDO,Equip,b,FISICA SANITARIA,-1,393128376272,via Boris n^26,26/2/1997
+Massimiliano,MONTOLI,Equip,b,FISICA SANITARIA,-1,393128376272,via Silvestro n^26,8/11/1993
+Daniele,PIERELLI,Equip,b,FISICA SANITARIA,-1,393128376272,via Gustavo n^9,16/5/1985
+Arianna,BOGGERO,Equip,b,FISICA SANITARIA,-1,393128376272,via Marica n^37,15/10/1984
+Diego,NOCERINO,Equip,b,FISICA SANITARIA,-1,393128376272,via Mara n^5,12/4/1983
+Patrizia,NOTARI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Tiffany n^96,6/11/1998
+Matteo,VIDALI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Paolo n^90,8/3/1999
+Vessellina,KRUOMOVA,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Tamara n^65,26/5/1980
+Giuseppina,ANTONINI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Zorya n^38,20/6/1982
+Ilaria,CRESPI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Mainard n^73,28/1/1991
+Luisa,DI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Adriele n^13,2/4/2000
+Lucia,FRANCHINI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Bella n^49,16/5/1986
+Roberta,Rolla,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Ulderico n^13,10/8/1990
+Marco,Bagnati,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Inga n^25,1/2/1986
+Patrizia,PERGOLONI,Equip,b,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Damiano n^50,25/2/2000
+Massimo,BERNARDI,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Filiberto n^57,14/7/1981
+Mario,COMMODO,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Cora n^53,14/4/1989
+Alina,GALLO,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Linda n^93,20/7/1986
+Marco,LANFRANCHI,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Dino n^63,28/7/1990
+Rosario,PATANE’,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Fiorenza n^56,4/7/1993
+Thomas,TOSCANO,Equip,b,MEDICINA INTERNA 1,2,393128376272,via Noemi n^6,19/11/1982
+Luisa,AIROLDI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Jin n^93,12/4/2000
+Sara,BACCHINI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Rhoda n^73,14/12/1989
+Virginia,BOLZANI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Igea n^56,1/1/1986
+Alberto,IMBRICI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Paola n^58,29/10/1998
+Filippo,LORIA,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Calogero n^41,29/8/1987
+Maria,Domenica,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Dafne n^42,22/8/1992
+Andrea,ROGNONI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Simeone n^80,23/11/2000
+Lidia,ROSSI,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Massimiliano n^20,22/3/1985
+Roberta,ROSSO,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Alea n^8,6/6/1989
+Alessia,VEIA,Equip,b,MEDICINA INTERNA 2,4,393128376272,via Fergal n^70,18/8/1984
+Matteo,BRUCOLI,Equip,b,NEUROLOGIA,3,393128376272,via Vito n^46,30/7/1991
+Guido,BAIETTO,Equip,b,OFTAMOLOGIA,-1,393128376272,via Sebastiano n^56,23/2/2000
+Maria,Giovanna,Equip,b,OFTAMOLOGIA,-1,393128376272,via Luminosa n^10,15/4/1984
+Ester,PAPALIA,Equip,b,OFTAMOLOGIA,-1,393128376272,via Loredana n^36,7/10/1986
+Giuliano,ALLEGRA,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Morgana n^40,1/10/1985
+Fabiola,BENVENUTO,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Sigfrido n^55,2/8/1983
+Andrea,BIANCO,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Mirta n^55,9/11/1987
+Piergiorgio,CAR,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Marzia n^36,22/3/1988
+Sara,FORGNONE,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Aldo n^45,24/12/1983
+Lucia,VALCAUDA,Equip,b,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Dela n^2,4/5/1985
+Giovanni,BORELLO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Rachele n^44,15/10/1991
+Filippo,FARRI,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Frine n^22,21/8/1981
+Massimiliano,PINO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Alan n^43,3/8/1987
+Mario,POLICARPO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Ymir n^62,28/3/1982
+Massimiliano,GARZARO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Anastasia n^3,14/11/1992
+Fausto,TARANTO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Ginevra n^34,5/12/1990
+Andrea,TOSO,Equip,b,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Annika n^19,22/9/1993
+Michele,BILLIA,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Debora n^10,24/6/1992
+Giovanni,CERATTI,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Adele n^15,17/2/1985
+Michele,FAVRO,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Francesco n^7,19/3/1985
+Giansilvio,MARCHIORO,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Jemina n^42,9/10/1993
+Filippo,SOGNI,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Melissa n^27,15/2/1992
+Paolo,UMARI,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Annika n^97,22/10/1995
+Monica,ZACCHERO,Equip,b,ANESTESIA E RIANIMAZIONE 1,0,393128376272,via Vedia n^16,30/11/1996
+Giuseppe,Patti,Capo reparto,c,CARDIOLOGIA 1,3,393128376272,via Orlena n^69,9/2/1984
+Paolo,BELLORA,Equip,c,CARDIOLOGIA 1,3,393128376272,via Taras n^38,25/4/1997
+Paolo,BAROFFIO,Equip,c,CARDIOLOGIA 1,3,393128376272,via Costantino n^54,5/9/1996
+Federico,BUTERA,Equip,c,CARDIOLOGIA 1,3,393128376272,via Alfio n^55,11/6/1995
+Giordana,D’ALOISIO,Equip,c,CARDIOLOGIA 1,3,393128376272,via Teodora n^30,22/2/1994
+Lucio,GATTI,Equip,c,CARDIOLOGIA 1,3,393128376272,via Euridice n^91,5/5/1990
+Luca,GATTONI,Equip,c,CARDIOLOGIA 1,3,393128376272,via Robin n^43,17/6/1982
+Maurizia,GULLOTTI,Equip,c,CARDIOLOGIA 1,3,393128376272,via Romina n^18,15/2/1993
+Fabrizio,OLIVIERI,Equip,c,CARDIOLOGIA 1,3,393128376272,via Tito n^95,25/5/1989
+Paolo,BERTOLIRoberto,Equip,c,FISICA SANITARIA,-1,393128376272,via Edda n^4,23/7/1991
+Antonio,TAVEGGIA,Equip,c,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Curzio n^86,21/2/1991
+Antonio,RUSSO,Equip,c,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Danae n^77,6/10/2000
+Igor,VALTORTA,Equip,c,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393128376272,via Frine n^17,20/5/1988
+Francesco,CASELLA,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Moanna n^70,24/12/1982
+Renato,CASSATELLA,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Meredith n^53,18/7/1992
+M.,Letizia,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Simona n^46,12/1/1987
+Liborio,FERRANTE,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Vida n^19,29/4/1993
+Mila,Maria,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Moanna n^99,10/8/1990
+Anna,Maria,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Teo n^6,14/2/1992
+Massimiliano,MARTELLI,Equip,c,MEDICINA INTERNA 1,2,393128376272,via Timoteo n^34,8/3/1991
+Lorenzo,DE,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Miranda n^65,25/3/1994
+Chiara,FRAIRIA,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Indro n^13,11/3/1991
+Mariangela,GRECO,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Penelope n^66,14/12/1991
+Monia,LUNGHI,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Elissa n^52,14/9/1993
+Luca,NASSI,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Medardo n^57,5/1/1983
+Andrea,PATRIARCA,Equip,c,MEDICINA INTERNA 2,4,393128376272,via Otto n^28,15/7/1983
+Cristian,David,Equip,c,NEUROLOGIA,3,393128376272,via Duccio n^10,10/8/2000
+Roberta,NICALI,Equip,c,NEUROLOGIA,3,393128376272,via Sharar n^13,7/11/1982
+Gian,Carlo,Equip,c,NEUROLOGIA,3,393128376272,via Fabrizio n^1,21/5/1995
+Renato,VERCELLI,Equip,c,NEUROLOGIA,3,393128376272,via Mahina n^38,9/11/1995
+Lucia,LEVA,Equip,c,OFTAMOLOGIA,-1,393128376272,via Rita n^61,10/1/1989
+Federica,ORSINI,Equip,c,OFTAMOLOGIA,-1,393128376272,via Marlow n^28,30/12/1980
+Erinda,PUTA,Equip,c,OFTAMOLOGIA,-1,393128376272,via Asteria n^52,5/8/1992
+Silvia,ATTANASIO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Gelsomina n^1,8/9/1986
+Sabrina,BALDI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Sina n^41,8/8/1980
+Michela,BARINI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Rossana n^90,9/12/1986
+Alessandro,BOCCARDI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Malik n^67,28/10/1995
+Chiara,BORRACCINO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Thera n^29,23/1/1988
+Andrea,CALCATERRA,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Valentina n^34,23/6/1982
+Daniela,CATANZARO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Wolfgang n^70,17/11/1996
+Paolo,CERINI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Genoveffa n^8,7/6/1981
+Patrizio,CONTE,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Marvin n^39,3/11/1989
+Alessandra,FERRARI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Zita n^84,17/10/1997
+Anna,Clelia,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Fiorenzo n^11,22/11/1992
+Gaetana,MANIGRASSO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Roberta n^29,5/3/1995
+Maria,Rosa,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Ilaria n^94,22/7/1982
+Tomasina,MELONI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Velia n^94,29/8/1988
+Elena,MIGAZZO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Jessica n^79,25/11/1992
+Pierluigi,NERI,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Febo n^74,9/9/1993
+Mirela,PROASPATU,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Ford n^6,14/5/1992
+Anna,Maria,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Jemina n^80,20/8/1990
+Silvia,SANTOCONO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Rosario n^89,23/9/1998
+Roberto,TOMAO,Equip,c,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393128376272,via Giunia n^14,5/2/1994
+Giuseppina,APICELLA,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393128376272,via Paralda n^35,15/9/1980
+Debora,BELDI’,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Rahda n^9,27/3/1997
+Serena,BERRETTA,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Yuri n^27,6/8/1999
+Rachele,GRASSO;,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Dante n^31,4/9/1994
+Carla,PISANI,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Yasu n^98,27/6/1990
+Lucia,TURRI,Equip,c,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Mara n^92,22/6/1987
+Eleonora,GALLAROTTI,Equip,c,ANESTESIA E RIANIMAZIONE 1,0,393266473463,via Sergio n^63,4/5/1988
+Giuseppe,Patti,Capo reparto,d,CARDIOLOGIA 1,3,393266473463,via Danae n^0,10/4/1990
+Cristiana,BOZZOLA,Equip,d,CARDIOLOGIA 1,3,393266473463,via Fermo n^40,24/10/1981
+Francesca,FOTI,Equip,d,CARDIOLOGIA 1,3,393266473463,via Liliana n^48,15/8/1981
+Angela,GIACALONE,Equip,d,CARDIOLOGIA 1,3,393266473463,via Glen n^86,8/1/1980
+Monica,LEUTNER,Equip,d,CARDIOLOGIA 1,3,393266473463,via Galtea n^74,16/3/1997
+Emanuela,UGLIETTI,Equip,d,CARDIOLOGIA 1,3,393266473463,via Moanna n^5,20/2/1984
+Guido,VALENTE,Equip,d,CARDIOLOGIA 1,3,393266473463,via Nives n^67,10/1/1992
+Silvia,AINA,Equip,d,FISICA SANITARIA,-1,393266473463,via Rahda n^69,10/4/1987
+Massimo,BONI,Equip,d,FISICA SANITARIA,-1,393266473463,via Tito n^45,30/7/1999
+Cinzia,FERRARI,Equip,d,FISICA SANITARIA,-1,393266473463,via Cruz n^90,22/3/1984
+MariaTeresa,GALLINA,Equip,d,FISICA SANITARIA,-1,393266473463,via Fortuna n^55,30/10/1999
+Luca,GARLASCHELLI,Equip,d,FISICA SANITARIA,-1,393266473463,via Giotto n^8,23/3/1996
+Silvia,MAFFEO,Equip,d,FISICA SANITARIA,-1,393266473463,via Serafino n^78,3/9/1997
+Fabio,NARDUCCI,Equip,d,FISICA SANITARIA,-1,393266473463,via Miranda n^80,5/10/1982
+Federica,PIERI,Equip,d,FISICA SANITARIA,-1,393266473463,via Loredana n^35,9/11/1990
+Ilaria,ROGNONI,Equip,d,FISICA SANITARIA,-1,393266473463,via Alice n^88,9/10/1998
+Riccardo,ALBERIO,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Uberto n^51,24/4/1994
+Emilio,ANTENUCCI,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Doriano n^9,10/3/1995
+Stefano,BOCCARDI,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Quintiliano n^68,20/5/1985
+Camillo,BUCCHERI,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Gaia n^96,12/4/1998
+Antonio,DE,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Zeno n^86,26/10/2000
+Michele,DE,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Gaia n^71,27/9/1994
+Paolo,FORNARA,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Petunia n^6,14/7/1999
+Davide,GAMBERONI,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Luminosa n^0,27/3/1998
+Massimiliano,LEIGHEB,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Patrizio n^15,30/5/1994
+Francesca,Denise,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Medusa n^76,6/3/1990
+Diego,MONZEGLIO,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Ruggero n^99,10/10/1986
+Ercole,PELIZZONE,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Elda n^73,18/9/1992
+Fabrizio,TRINCAS,Equip,d,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Dagmar n^73,1/12/1989
+Giuseppe,Patti,Capo reparto,e,CARDIOLOGIA 1,3,393266473463,via Gardenia n^22,12/9/1986
+Franco,BALOSSINI,Equip,e,CARDIOLOGIA 1,3,393266473463,via Pico n^64,26/8/1994
+Francesca,BORRUTO,Equip,e,CARDIOLOGIA 1,3,393266473463,via Shanti n^27,19/12/1981
+Piero,Ugo,Equip,e,CARDIOLOGIA 1,3,393266473463,via Ediardo n^35,20/2/1988
+Valeria,GABRIELE,Equip,e,CARDIOLOGIA 1,3,393266473463,via Azzurra n^25,29/6/2000
+Chiara,MATTEOTTI,Equip,e,CARDIOLOGIA 1,3,393266473463,via Erminio n^42,7/5/1988
+Vittorio,QUAGLIA,Equip,e,FISICA SANITARIA,-1,393266473463,via Moanna n^74,27/9/1995
+Paolo,RAVANINI,Equip,e,FISICA SANITARIA,-1,393266473463,via Otto n^66,17/10/2000
+Andrea,AIROLDI,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Joel n^65,19/4/1995
+Francesca,COFANO,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Ilia n^52,7/8/1980
+Cristina,CORNELLA,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Iride n^62,9/7/1980
+Elisa,LAZZARICH,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Graziana n^17,2/11/1980
+Claidio,MUSETTI,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Luciana n^64,21/4/1991
+Daniela,PALMIERI,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Xantha n^18,1/2/1988
+Marco,QUAGLIA,Equip,e,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393266473463,via Joelle n^7,8/4/1989
+Maddalena,BRUSTIA,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Malka n^33,30/4/1985
+Elena,BRUSCHETTA,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Lamberto n^4,21/11/1994
+Federica,CAPURRO,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Gilberto n^42,11/4/1984
+Maria,Maddalena,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Xenia n^44,2/12/1997
+Paola,DAVID,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Angelica n^96,27/10/1995
+Andreana,DE,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Ida n^92,1/4/1982
+Luciana,GRAVELLONE,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Rosaura n^93,5/12/1991
+Eirini,Martha,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Edwin n^38,25/7/1980
+Carlo,RUVA,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Irvin n^13,16/7/1985
+Cristina,IZZO,Equip,e,MEDICINA INTERNA 1,2,393266473463,via Gilda n^91,3/7/1989
+Amanda,PAPA,Equip,e,MEDICINA INTERNA 2,4,393266473463,via Iole n^96,11/9/1981
+Roberta,POMELLA,Equip,e,MEDICINA INTERNA 2,4,393266473463,via Clio n^42,4/6/1990
+Federica,BIELLO,Equip,e,NEUROLOGIA,3,393266473463,via Vida n^51,8/12/1992
+Gloria,BORRA,Equip,e,NEUROLOGIA,3,393266473463,via Ludmilla n^11,23/12/1999
+Giovanni,BURRAFATO,Equip,e,NEUROLOGIA,3,393266473463,via Aquilante n^28,14/11/1989
+Laura,Giovanna,Equip,e,NEUROLOGIA,3,393266473463,via Aldo n^19,20/12/1985
+Alice,GATTI,Equip,e,NEUROLOGIA,3,393266473463,via Acantha n^10,10/6/1999
+Alessandra,MOSCA,Equip,e,NEUROLOGIA,3,393266473463,via Eligio n^9,11/10/1990
+David,RONDONOTTI,Equip,e,NEUROLOGIA,3,393266473463,via Gaynor n^52,15/9/1982
+Valentina,ROSSI,Equip,e,NEUROLOGIA,3,393266473463,via Giona n^65,18/9/1986
+Chiara,SAGGIA,Equip,e,NEUROLOGIA,3,393266473463,via Tamara n^4,15/7/2000
+Guido,SIFFREDI,Equip,e,NEUROLOGIA,3,393266473463,via Levia n^78,3/8/1993
+Andrea,Pietro,Equip,e,NEUROLOGIA,3,393266473463,via Camillo n^68,27/4/1990
+Giuseppe,COLASANTO,Equip,e,OFTAMOLOGIA,-1,393266473463,via Eliana n^64,20/12/1991
+Alice,DEL,Equip,e,OFTAMOLOGIA,-1,393266473463,via Ginevra n^3,19/6/1983
+Angela,DE,Equip,e,OFTAMOLOGIA,-1,393266473463,via Morana n^5,25/10/1980
+Paola,AMORUSO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Sibilla n^96,15/3/1999
+Andrea,BLANDA,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Eglantina n^17,2/7/1998
+Lucio,Fabio,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Arnaldo n^1,12/2/1990
+Alberto,CATINELLA,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Izusa n^83,24/7/1995
+Andrea,CAPUANO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Ebe n^83,20/10/1997
+Patrizia,D’,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Osvaldo n^49,15/10/1994
+Elisabetta,FORTINA,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Leopoldo n^26,30/12/1987
+Michele,GIANA,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Fabrizia n^80,18/9/1982
+Susanna,INGRAO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Sabrina n^66,5/11/1995
+Daniela,LONGO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Zenaide n^31,11/7/1998
+Alessandro,MASINO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Izusa n^0,2/12/1998
+Ameli,PAGLIA,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Liliana n^71,11/2/1992
+Raffaella,RIBALDONE,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Martina n^64,25/4/1996
+Daniela,SURICO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Michele n^21,9/3/1990
+Elisabetta,TARRANO,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Daria n^81,18/9/1982
+Alessandro,VIGONE,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Rosalia n^83,23/3/1996
+Elena,VERCELLOTTI.,Equip,e,TERAPIA INTENSIVA CARDIOLOGICA UNITÀ CORONARICA,0,393266473463,via Diletta n^49,21/4/1991
+Maria,Eleonora,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Dina n^86,13/11/1996
+Simonetta,BELLONE,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Mirko n^86,21/11/1999
+Ilaria,M.,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Remo n^96,1/3/1994
+Matteo,CASTAGNO,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Yasu n^86,10/3/1983
+Marta,CERUTTI,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Orazio n^90,19/4/1985
+Marco,ERBEIA,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393266473463,via Moanna n^72,7/9/1996
+Sandra,ESPOSITO,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Bianca n^8,21/10/1981
+Miriam,Chiara,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Erica n^25,6/6/1987
+Enza,GIGLIONE,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Ludmilla n^21,23/7/1992
+Alice,MONZANI,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Loredana n^2,14/8/1989
+Roberta,RICOTTI,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Alice n^96,21/7/1980
+Silvia,SAVASTIO.,Equip,e,UNITÀ DI ELETTROFISIOLOGIA,-1,393348471120,via Aleramo n^93,12/4/1981
+Germano,BAJ,Equip,e,ANESTESIA E RIANIMAZIONE 1,0,393348471120,via Dela n^32,23/5/1989
+GiampaoloCoordinatore,dietiste,Equip,e,ANESTESIA E RIANIMAZIONE 1,0,393348471120,via Doriana n^79,20/3/1980
+Marco,BINOTTI,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Sean n^93,12/6/1998
+Edvige,CAPUTO,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Saul n^97,10/11/1999
+Raffaella,CASSONE,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Leda n^62,10/12/1985
+cristina,COLLI,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Riccarda n^40,9/1/1996
+Roberta,GILODI,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Mandisa n^78,23/12/1985
+Raffaella,OSELLO,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Quincy n^71,22/11/1985
+Ilaria,STASI,Equip,e,ANESTESIA E RIANIMAZIONE 2,0,393348471120,via Serafina n^26,21/5/1980
+Giuseppe,Patti,Capo reparto,f,CARDIOLOGIA 1,3,393348471120,via Tazio n^50,21/11/1991
+Olivia,BARGIACCHI,Equip,f,CARDIOLOGIA 1,3,393348471120,via Matteo n^74,5/3/1990
+Diego,BRUSTIA,Equip,f,CARDIOLOGIA 1,3,393348471120,via Palma n^81,25/8/1995
+Cecilia,COSTA,Equip,f,CARDIOLOGIA 1,3,393348471120,via Osvaldo n^28,30/5/1982
+Claudio,NEBBIOLO,Equip,f,CARDIOLOGIA 1,3,393348471120,via Simone n^17,25/9/1999
+Antonella,ROSSATI,Equip,f,CARDIOLOGIA 1,3,393348471120,via Tyler n^53,2/11/1993
+Giuseppe,Patti,Capo reparto,g,CARDIOLOGIA 1,3,393348471120,via Sara n^37,30/5/1982
+Stefano,ASTOLFI,Equip,g,FISICA SANITARIA,-1,393348471120,via Ursula n^57,25/10/1987
+Pamela,FARINELLI,Equip,g,FISICA SANITARIA,-1,393348471120,via Teresa n^2,19/3/1992
+Roberto,GIORGIONE,Equip,g,FISICA SANITARIA,-1,393348471120,via Ymer n^38,7/3/1993
+Laura,Cristina,Equip,g,FISICA SANITARIA,-1,393348471120,via Alia n^63,17/5/1993
+Rossana,TIBERIO,Equip,g,FISICA SANITARIA,-1,393274908863,via Freya n^85,5/3/1982
+Federica,VERONESE,Equip,g,FISICA SANITARIA,-1,393274908863,via Malvina n^60,1/12/1992
+Elisa,ZAVATTARO,Equip,g,FISICA SANITARIA,-1,393274908863,via Arabella n^8,25/6/1997
+Valentina,BULLARAMaria,Equip,g,MEDICINA E CHIRURGIA D'ACCETTAZIONE E D'URGENZA (DEA),0,393274908863,via Letizia n^26,29/1/1985
+Elia,ARMELLINI,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Donald n^28,24/10/1987
+Marco,BALLARE,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Glauco n^24,2/2/1985
+Giulio,DONATO,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Donato n^16,18/3/1985
+Marco,ORSELLO,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Irvin n^21,25/9/1994
+Silvia,SAETTONE,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Giuseppe n^12,19/2/1998
+Roberto,TARI,Equip,g,MEDICINA INTERNA 1,2,393274908863,via Matteo n^93,21/3/1991
+Valeria,BINDA,Equip,g,MEDICINA INTERNA 2,4,393274908863,via Clio n^25,12/4/1999
+Debora,MARANGON,Equip,g,MEDICINA INTERNA 2,4,393274908863,via Velania n^3,29/8/1983
+Pierluigi,PROSPERINI,Equip,g,MEDICINA INTERNA 2,4,393274908863,via Matilde n^48,18/8/1994
+Giuseppe,Patti,Capo reparto,h,CARDIOLOGIA 1,3,393274908863,via Anna n^54,22/9/2000
+Girolamo,FARRAUTO,Equip,h,CARDIOLOGIA 1,3,393274908863,via Maura n^3,4/11/1985
+Fabrizio,LEGHEB,Equip,h,CARDIOLOGIA 1,3,393274908863,via Musa n^100,30/2/1984
+Edit,SHAHI,Equip,h,CARDIOLOGIA 1,3,393274908863,via Natalia n^6,2/11/1996
+Maria,TACCHINIDirigente,Equip,h,CARDIOLOGIA 1,3,393274908863,via Arianna n^52,13/4/1997
+Pierangelo,BESCAPE’,Equip,h,FISICA SANITARIA,-1,393274908863,via Ottavia n^45,5/11/1980
+Gian,Battista,Equip,h,FISICA SANITARIA,-1,393274908863,via Melantha n^3,25/6/1981
+Paola,CARLINO,Equip,h,FISICA SANITARIA,-1,393274908863,via Teodoro n^52,19/6/1982
+Luisella,FERRARI,Equip,h,FISICA SANITARIA,-1,393274908863,via Pio n^58,22/7/1992
+Damiano,SOLAZZO,Equip,h,FISICA SANITARIA,-1,393274908863,via Doriana n^89,14/4/1981
+Chiara,VENDRAMIN,Equip,h,FISICA SANITARIA,-1,393274908863,via Ken n^12,18/6/1997
