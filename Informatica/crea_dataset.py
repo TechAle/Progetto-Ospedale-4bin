@@ -77,18 +77,17 @@ class gestore:
                 nomi.append(i[1].split()[j])
                 cognomi.append(i[1].split()[-1])
             ## Itero in una lista numerata, divido in piani
+            conto = 0
             for posto, i in enumerate(self.equip_medica):
                 print("Scrittura del piano {0}".format(chr(posto+97)) )
                 ## Itero in una lista numerata, divido in reparti
                 for cont_,j in enumerate(i):
-                    ## Se è 0 allora è il capo reparto
-                    if cont_ == 0:
-                        self.writer_main(writer, nomi[cont],cognomi[cont],"Capo reparto",str(chr(posto + 97)), self.Nomi[cont_][0],self.Nomi[cont_][-1])
+                    self.writer_main(writer, nomi[conto],cognomi[conto],"Capo reparto",str(chr(posto + 97)), self.Nomi[conto][0],self.Nomi[conto][-1])
                     ## Itero dentro al reparto
                     for k in j:
                         self.writer_main(writer, k.split()[0], k.split()[1], "Equip",
-                                             str(chr(posto + 97)), self.Nomi[cont_][0], self.Nomi[cont_][-1])
-                    cont_ += 1
+                                             str(chr(posto + 97)), self.Nomi[conto][0], self.Nomi[conto][-1])
+                    conto += 1
                 print("Piano finito")
 
         ## Scrittura dei pazienti fittizi
@@ -199,9 +198,9 @@ class gestore:
                     ## Prendo la prima parte, la divido in parti a seconda del :, prendo ciò che ci interessa e la ridivido per \n. Una volta questo,
                     ## Itero ogni parte della lista e ci toglio le cose in più per poi toglierli le celle vuote e le varie eccezioni.
                     ## Lo rendo una stringa per poi dividerlo ogni ,
-                    equip = ''.join(list(filter( lambda val: val.split().__len__() != 1, list(filter(
+                    equip = (list(filter( lambda val: val.split().__len__() != 1, list(filter(
                         lambda val: val.__len__() != 0 and val != "Struttura semplice" and val != "Strutture semplici" and val != "Coordinatore Infermieristico", list(
-                            map(lambda val: val.strip(), prima_parte.split(":")[1].split("\n")))))))).split(',')
+                            map(lambda val: val.strip(), prima_parte.split(":")[1].split("\n"))))))))
                 ## In questi 2 casi, li aggiungo "manualmente"
                 elif prima_parte.__contains__("Antonio RAMPONI"):
                     equip = ["Cristiana BOZZOLA", "Francesca FOTI", "Angela GIACALONE", "Monica LEUTNER", "Emanuela UGLIETTI", "Guido VALENTE"]
@@ -213,6 +212,9 @@ class gestore:
                     prima_parte.strip().split(",")
         except AttributeError:
             pass
+        ## Per risolvere un errore
+        if equip.__len__() == 1 and equip[0].__len__() > 20:
+            equip = equip[0].split(',')
         ## Chiudo la connessione
         response.close()
         ## Ritorno l'array
