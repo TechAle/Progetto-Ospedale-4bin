@@ -23,25 +23,26 @@ except:
 class inizio_class():
     def __init__(self, citta):
         ## Apro il file
-        citta = citta.lower()
+        citta = citta[0].upper() + citta[1:].lower()
         try:
-            self.dati = pd.read_csv(urllib.request.urlopen("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"))
+            self.dati = pd.read_csv(urllib.request.urlopen("https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_confirmed_global.csv&filename=time_series_covid19_confirmed_global.csv"))
+            self.ricoverati = pd.read_csv(urllib.request.urlopen("https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_recovered_global.csv&filename=time_series_covid19_recovered_global.csv"))
+            self.decessi = pd.read_csv(urllib.request.urlopen("https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_deaths_global.csv&filename=time_series_covid19_deaths_global.csv"))
         except:
             print("Sei sicuro di essere connesso ad internet?")
             exit(0)
-        ## Controllo dell'esistenza
-        if np.where(self.dati["countriesAndTerritories"].str.lower() == citta)[0].__len__() == 0:
+        if not self.dati["Country/Region"].str.contains(citta).any():
             self.citta = self.probabilita(citta)
-        ## Raccolgo il tutto
-        self.citta = self.dati.loc[self.dati["countriesAndTerritories"] == "Italy"][["dateRep", "cases", "deaths"]]
-        self.citta = self.citta[:self.citta['cases'].index[self.citta['cases'].astype(int) > 0][-1] - self.citta.first_valid_index() + 1].iloc[::-1]
+        self.casi = self.dati.loc[self.dati["Country/Region"] == citta].values[0][4:]
+        self.decessi = self.decessi.loc[self.decessi["Country/Region"] == citta].values[0][4:]
+        self.ricoverati = self.ricoverati.loc[self.ricoverati["Country/Region"] == citta].values[0][4:]
 
     def probabilita(self,prob_citta):
         # https://stackoverflow.com/questions/17388213/find-the-similarity-metric-between-two-strings
         def similar(a, b):
             return SequenceMatcher(None, a, b).ratio()
         ## Prendo gli stati
-        stati = [val.lower for val in set(self.dati["countriesAndTerritories"])]
+        stati = [val for val in set(self.dati["Country/Region"])]
         ## creo array vuoto, 5 possibilita
         lista_finale = np.empty(5,dtype=int)
         lista_parole = np.empty(5, dtype="S20")
@@ -77,22 +78,27 @@ class inizio_class():
         else:
             return lista_parole[val-1]
 
-
-
     def richiesta(self, richiesta):
         if richiesta == 'a':
             visualizza(self.citta)
         elif richiesta == 'b':
-            crea_ex(self.citta)
+            crea_ex(self.casi,self.decessi,self.ricoverati)
         elif richiesta == 'c':
             pass
 
-def crea_ex(dati):
+
+def crea_ex(infetti,decessi,ricoverati):
     excel_file = xlsxwriter.Workbook('dati.xlsx')
     excel_pagina = excel_file.add_worksheet()
-    for righe,i in enumerate(dati):
-        for colonna,dato in enumerate(dati[i]):
-            excel_pagina.write(colonna,righe,dato)
+    excel_pagina.write(0,0,"Giorno")
+    excel_pagina.write(0,1,"Infetti")
+    excel_pagina.write(0,2,"Decessi")
+    excel_pagina.write(0,3,"Ricoverati")
+    for i in range(len(infetti)):
+        excel_pagina.write(i+1, 0, i)
+        excel_pagina.write(i+1,1,infetti[i])
+        excel_pagina.write(i+1, 2, decessi[i])
+        excel_pagina.write(i+1, 3, ricoverati[i])
     excel_file.close()
 
 
@@ -101,6 +107,8 @@ def visualizza(dati):
     plt.xlabel("Numeri")
     plt.ylabel("Quantità")
     plt.show()
+
+
 
 
 
