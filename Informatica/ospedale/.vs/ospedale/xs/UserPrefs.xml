@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{7BEAC157-5465-4C1B-B1FE-FF1C79F9D568}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ospedale/padiglione_cls.cs">
+    <Files>
+      <File FileName="ospedale/ospedale_cls.cs" Line="76" Column="69" />
+      <File FileName="ospedale/padiglione_cls.cs" Line="20" Column="1" />
+      <File FileName="ospedale/reparto_cls.cs" Line="6" Column="23" />
+      <File FileName="ospedale/persona_cls.cs" Line="2" Column="21" />
+      <File FileName="ospedale/medico_cls.cs" Line="2" Column="20" />
+      <File FileName="ospedale/paziente_cls.cs" Line="6" Column="23" />
+      <File FileName="ospedale/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ospedale PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -12,15 +12,26 @@ except:
 import random
 ## Per la gestione dei file csv
 import csv
+## Per leggere il dataset dei nomi
+import pandas as pd
+## Per rimuovere le consonanti
+import re
 
 
 ## Classe che gestisce il tutto
 class gestore:
     def __init__(self):
         ## Preparo i dati
-        self.cont = {"parole": set(), "cognomi": set(), "nomi": set()}
+        self.cont = {"parole": set(), "cognomi": set(), "nomi" : set()}
+        self.aggiungi_malattie()
+        ## Preparo il dataset con i nomi
+        self.getNomi_pre()
         ## Prendo tutti i reparti
         self.getReparti()
+
+    def getNomi_pre(self):
+        self.nomi = pd.read_csv('https://query.data.world/s/5xdo7ixiohmuq4yj5sdslgolah6qxh')
+        self.nomi = self.nomi.replace("boy","maschio").replace("girl","femmina")
 
     ## Aggiungo le parole, i cognomi e i nomi
     def aggiungi(self):
@@ -28,14 +39,24 @@ class gestore:
             ## Fà riferimento a una funzione (quella sotto)
             self.setting(i)
 
+    def aggiungi_malattie(self):
+        self.cont["malattie"] = []
+        with open("./dataset/malattie.txt", "r") as rd:
+            for i in rd.read().split("\n"):
+                self.cont["malattie"].append(i)
+
+
+        self.coronavirus = "La malattia da coronavirus (COVID-19) è una malattia infettiva causata da un nuovo virus. Il virus causa una malattia respiratoria (come l'influenza) con sintomi quali tosse, febbre e, nei casi più gravi, difficoltà respiratorie. Puoi proteggerti lavandoti spesso le mani, evitando di toccarti il viso ed evitando il contatto ravvicinato con persone che non stanno bene (mantieni un metro di distanza)."
+
     ## Prende la parola, la cerca nel dataset per poi metterla tutta nel set
     def setting(self, parola):
-        ## Aggiungo tutti i vari dataset ai rispettivi dizionari
-        with open("./dataset/{}.txt".format(parola), "r") as rd:
-            ## Apro, leggo, splitto
-            for i in rd.read().split():
-                ## Aggiungo
-                self.cont[parola].add(i)
+        if parola != "malattie":
+            ## Aggiungo tutti i vari dataset ai rispettivi dizionari
+            with open("./dataset/{}.txt".format(parola), "r") as rd:
+                ## Apro, leggo, splitto
+                for i in rd.read().split():
+                    ## Aggiungo
+                    self.cont[parola].add(i)
 
     ## Ritorna una stringa, un numero di telefono univoco
     def nuovoNum(self):
@@ -55,6 +76,13 @@ class gestore:
         self.numero_telefono = set()
         print("Inizia creazione file")
         ## Apro il file
+        ## OLtre ai medici ci metto anche i pazienti però in un file separato
+        ## Inizio con lo settings dei pazienti
+        file_paz = open("./dataset/pazienti.csv", "w")
+        writer_paz = csv.writer(file_paz, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        writer_paz.writerow(["Nome", "Cognome", "sesso", "Data di nascita", "padiglione", "reparto", "data ricovero",
+                         "numero della stanza", "numero del letto", "descrizione malattia", "dimissione/decesso",
+                         "tessera sanitaria"])
         with open("./dataset/medici.csv", "w") as filecsv:
             ## Settings predefiniti
             writer = csv.writer(filecsv, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -63,7 +91,8 @@ class gestore:
                              "Abitazione", "data di nascita"])
             ## Trasformo tutti i dataset da set a lista
             for i in self.cont.keys():
-                self.cont[i] = list(self.cont[i])
+                if not isinstance(i, list):
+                    self.cont[i] = list(self.cont[i])
             ## Liste dei nomi e congomi
             nomi = []
             cognomi = []
@@ -82,27 +111,62 @@ class gestore:
                 print("Scrittura del piano {0}".format(chr(posto+97)) )
                 ## Itero in una lista numerata, divido in reparti
                 for cont_,j in enumerate(i):
+                    ## Scrivo i pazienti
+                    self.scrivi_paziente(writer_paz,str(chr(posto + 97)), self.Nomi[conto][0])
                     self.writer_main(writer, nomi[conto],cognomi[conto],"Capo reparto",str(chr(posto + 97)), self.Nomi[conto][0],self.Nomi[conto][-1])
                     ## Itero dentro al reparto
                     for k in j:
-                        self.writer_main(writer, k.split()[0], k.split()[1], "Equip",
+                        if k.__contains__(","):
+                            for h in k.split(","):
+                                try:
+                                    self.writer_main(writer, h.split()[0], h.split()[1], "Equip",
+                                                 str(chr(posto + 97)), self.Nomi[conto][0], self.Nomi[conto][-1])
+                                except:
+                                    pass
+                            break
+                        else:
+                            self.writer_main(writer, k.split()[0], k.split()[1], "Equip",
                                              str(chr(posto + 97)), self.Nomi[conto][0], self.Nomi[conto][-1])
                     conto += 1
                 print("Piano finito")
 
-        ## Scrittura dei pazienti fittizi
-        print("Creazione pazienti fittizi")
-        with open("./dataset/pazienti.csv", "w") as filecsv:
-            ## Settings predefinite
-            writer = csv.writer(filecsv, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            ## Prima righe
-            writer.writerow(["Nome", "Cognome", "Data di nascita"])
-            ## Siccome non possiamo ricavare il numero esatto, lo facciamo casuale
-            for i in range(random.randint(400, 600)):
-                ## Scriviamo
-                writer.writerow([self.cont["nomi"][random.randint(0, len(self.cont["nomi"]) - 1)],
-                                 self.cont["cognomi"][random.randint(0, len(self.cont["cognomi"]) - 1)],
-                                 self.getData()])
+
+    def getNome(self):
+        return self.nomi.sample().__array__()[0]
+
+    def scrivi_paziente(self, writer, padiglione, reparto):
+        malattia = ""
+        for i in range(random.randint(5, 20)):
+            ## Scriviamo
+            nomi_g = self.getNome()
+            cognome = self.cont["cognomi"][random.randint(0, len(self.cont["cognomi"]) - 1)]
+            data_nascita = self.getData()
+            ## Diamo 4/5 di possibilità che sia il coronavirus
+            if random.randint(0,4) == 0:
+                malattia = self.cont["malattie"][random.randint(0, len(self.cont["malattie"]) - 1)]
+            else:
+                malattia = self.coronavirus
+            writer.writerow([nomi_g[0],
+                             cognome,
+                             nomi_g[1],
+                             data_nascita,
+                             padiglione,
+                             reparto,
+                             self.getDataRicovero(),
+                             random.randint(0, 40),
+                             random.randint(0, 10),
+                             malattia.replace("|",""),
+                             self.getDataRecDec(),
+                             self.getTesseraSanitaria(nomi_g[0], cognome, nomi_g[1], data_nascita)])
+
+    def getTesseraSanitaria(self,nome,cognome,sesso,data_nascita):
+        if sesso == "maschio":
+            sesso = "m"
+        else:
+            sesso = "f"
+        return rem_vowel(nome).lower() + rem_vowel(cognome).lower() + sesso + data_nascita.replace("/","") + str(random.randint(0,100))
+
+
     ## Gestisce la scrittura del primo caso
     def writer_main(self, writer, nome, cognome, posizione, piano, reparto, piano_reparto):
         writer.writerow([nome, cognome, posizione, piano, reparto,
@@ -110,8 +174,7 @@ class gestore:
 
     ## Serve per ottenere la via del medico
     def getVia(self):
-        return "via " + self.cont["nomi"][random.randint(0, len(self.cont["nomi"]) - 1)] + " n^" + str(
-            random.randint(0, 100))
+        return "via " + self.cont["nomi"][random.randint(0, len(self.cont["nomi"]) - 1)] + " n^" + str(random.randint(0, 100))
 
     ## Serve per ottenere il numero di un medico
     def getNumero(self):
@@ -120,6 +183,17 @@ class gestore:
     ## Serve per ottenere la data di nascita del medico
     def getData(self):
         return str(random.randint(1, 30)) + "/" + str(random.randint(1, 12)) + "/" + str(random.randint(1980, 2000))
+
+    def getDataRicovero(self):
+        return str(random.randint(1, 30)) + "/" + str(random.randint(1, 12)) + "/" + str(random.randint(2010, 2019))
+
+    def getDataRecDec(self):
+        out = ""
+        if random.randint(0,1) == 0:
+            out = "decesso "
+        else:
+            out = "dimisso "
+        return out + str(random.randint(1, 30)) + "/" + str(random.randint(1, 12)) + "/2020"
 
     ## Prendo tutti i reparti direttamente dal sito ufficiale di novara
     def getReparti(self):
@@ -153,14 +227,16 @@ class gestore:
                 ## Il testo effettivo
                 testo = i.getText().split("\n")
                 ## Piano deffault
-                piano = -2
+                piano = ""
                 ## Ricavo il piano
                 for j in piani.keys():
                     ## Se contiene la key
                     if testo[2].__contains__(j):
                         ## Scrivi il piano e esci
-                        piano = piani[j]
-                        break
+                        piano += j + " "
+
+                if not piano:
+                    piano = "complesso"
                 ## Uso try except siccome non voglio rendere ancora più complicato il codice.
                 ## Il reparto "mensa" non contiene nessun gestore, allora gliene dò uno a mia scelta
                 try:
@@ -221,6 +297,8 @@ class gestore:
         return equip
 
 
+def rem_vowel(string):
+    return (re.sub("[aeiouAEIOU]","",string))
 
 def main():
     ## Creo le varie variabili

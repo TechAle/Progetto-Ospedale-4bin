@@ -1,0 +1,6 @@
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/bin/Debug/ospedale.exe
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/bin/Debug/ospedale.pdb
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/obj/Debug/ospedale.csprojAssemblyReference.cache
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/obj/Debug/ospedale.csproj.CoreCompileInputs.cache
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/obj/Debug/ospedale.exe
+/Users/alessandro/Documents/GitHub/Progetto-Ospedale-4bin/Informatica/ospedale/ospedale/obj/Debug/ospedale.pdb
