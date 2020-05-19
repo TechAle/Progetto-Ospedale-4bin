@@ -88,7 +88,7 @@ class gestore:
             writer = csv.writer(filecsv, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             ## Prima riga
             writer.writerow(["Nome", "Cognome", "Ruolo", "padiglione", "reparto", "piano reparto", "Numero di telefono",
-                             "Abitazione", "data di nascita"])
+                             "Abitazione", "data di nascita", "tessera_sanitaria"])
             ## Trasformo tutti i dataset da set a lista
             for i in self.cont.keys():
                 if not isinstance(i, list):
@@ -120,7 +120,7 @@ class gestore:
                             for h in k.split(","):
                                 try:
                                     self.writer_main(writer, h.split()[0], h.split()[1], "Equip",
-                                                 str(chr(posto + 97)), self.Nomi[conto][0], self.Nomi[conto][-1])
+                                                 str(chr(posto + 97)), self.Nomi[conto][0], self.Nomi[conto][-1],)
                                 except:
                                     pass
                             break
@@ -169,8 +169,12 @@ class gestore:
 
     ## Gestisce la scrittura del primo caso
     def writer_main(self, writer, nome, cognome, posizione, piano, reparto, piano_reparto):
+        data_nascita = self.getData()
+        sesso = "m"
+        if random.randint(0,1) == 0:
+            sesso = "f"
         writer.writerow([nome, cognome, posizione, piano, reparto,
-                         piano_reparto, self.nuovoNum(), self.getVia(), self.getData()])
+                         piano_reparto, self.nuovoNum(), self.getVia(), data_nascita, self.getTesseraSanitaria(nome,cognome,sesso,data_nascita)])
 
     ## Serve per ottenere la via del medico
     def getVia(self):
@@ -215,7 +219,7 @@ class gestore:
             ## Trasformo
             soup = BeautifulSoup(response.content, "html.parser")
             ## Controllo se il sito esiste
-            if soup.title.getText().__contains__("404"):
+            if soup.title.getText().__contains__("Pagina non trovata"):
                 break
             else:
                 ## Se si allora dì
@@ -227,16 +231,16 @@ class gestore:
                 ## Il testo effettivo
                 testo = i.getText().split("\n")
                 ## Piano deffault
-                piano = ""
+                piano = str(random.randint(-1,4))
                 ## Ricavo il piano
                 for j in piani.keys():
                     ## Se contiene la key
                     if testo[2].__contains__(j):
                         ## Scrivi il piano e esci
-                        piano += j + " "
+                        piano = piani[j]
+                        break
 
-                if not piano:
-                    piano = "complesso"
+
                 ## Uso try except siccome non voglio rendere ancora più complicato il codice.
                 ## Il reparto "mensa" non contiene nessun gestore, allora gliene dò uno a mia scelta
                 try:
