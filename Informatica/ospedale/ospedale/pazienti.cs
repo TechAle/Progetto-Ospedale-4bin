@@ -1,20 +1,13 @@
-﻿/*
- * Nome: pazienti_cls.cs
- * Progetto: Ospedale
- * Gruppo: 3
- * Partecipanti del gruppo: Condello Alessandro, Bergantin Andrea, Gavinelli Riccardo
- * Ultima modifica: 04/05/2020 
- */
+﻿using System;
 namespace ospedale
 {
-    // Eredito delle variabili dalla classe persona
-    public class paziente_cls : persona_cls
+    public class pazienti : persona_cls
     {
+        #region varabili
         // Variabili globali del paziente
         public char sesso;
         public int n_stanza;
         public int n_letto;
-        public string data_nascita;
         // Variabili private
         private string data_ricovero;
         public string Data_Ricovero
@@ -44,9 +37,10 @@ namespace ospedale
             set { dimessione_decesso = value; }
 
         }
+        #endregion
 
-        // Costruttore
-        public paziente_cls(string nome, string cognome, char sesso, string data_nascita, string data_ricovero, int n_stanza, int n_letto, string malattia, string dim_dec, string tessera_sanitaria)
+        #region costruttore
+        public pazienti(string nome, string cognome, char sesso, string data_nascita, string data_ricovero, int n_stanza, int n_letto, string malattia, string dim_dec, string tessera_sanitaria)
         {
             this.nome = nome;
             this.cognome = cognome;
@@ -59,6 +53,6 @@ namespace ospedale
             Malattia = malattia;
             Dimessione_Decesso = dim_dec;
         }
-
+        #endregion
     }
 }

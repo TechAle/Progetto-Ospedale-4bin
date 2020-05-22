@@ -1,18 +1,13 @@
-﻿/*
- * Nome: medici_cls.cs
- * Progetto: Ospedale
- * Gruppo: 3
- * Partecipanti del gruppo: Condello Alessandro, Bergantin Andrea, Gavinelli Riccardo
- * Ultima modifica: 04/05/2020 
- */
+﻿using System;
 namespace ospedale
 {
-    // Eredito delle variabili dalla classe persona
-    public class medico_cls : persona_cls
+    public class medici : persona_cls
     {
+        #region variabili
         // Variabili dei medici
         public string ruolo;
         public int n_telefono;
+        public string tessera_sanitaria;
         // Proprietà di abitazione
         private string abitazione;
         public string Abitazione
@@ -20,18 +15,19 @@ namespace ospedale
             get { return abitazione; }
             set { abitazione = value; }
         }
+        #endregion
 
-        // Aggiunta di un medico
-        public medico_cls(string nome, string cognome, string ruolo, int n_telefono, string abituazione, string data_di_nascita)
+        #region costruttore
+        public medici(string nome, string cognome, string ruolo, int n_telefono, string abituazione, string data_di_nascita, string tessera)
         {
             this.nome = nome;
             this.cognome = cognome;
-            this.cognome = data_di_nascita;
+            this.data_nascita = data_di_nascita;
             this.ruolo = ruolo;
             this.n_telefono = n_telefono;
             Abitazione = abitazione;
+            this.tessera_sanitaria = tessera;
         }
-       
-        
+        #endregion
     }
 }

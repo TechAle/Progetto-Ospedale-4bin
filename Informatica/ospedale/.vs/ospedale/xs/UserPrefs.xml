@@ -1,14 +1,22 @@
-﻿<Properties StartupConfiguration="{7BEAC157-5465-4C1B-B1FE-FF1C79F9D568}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ospedale/ospedale_cls.cs">
+﻿<Properties StartupConfiguration="{48D8AC03-F73E-42DD-8FD0-06F567D834C8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ospedale/persona.cs">
     <Files>
-      <File FileName="ospedale/ospedale_cls.cs" Line="76" Column="69" />
-      <File FileName="ospedale/padiglione_cls.cs" />
-      <File FileName="ospedale/reparto_cls.cs" />
-      <File FileName="ospedale/persona_cls.cs" />
-      <File FileName="ospedale/medico_cls.cs" />
-      <File FileName="ospedale/paziente_cls.cs" Line="1" Column="1" />
-      <File FileName="ospedale/Program.cs" Line="1" Column="1" />
+      <File FileName="ospedale/Reparto.cs" Line="25" Column="38" />
+      <File FileName="ospedale/persona.cs" Line="11" Column="6" />
+      <File FileName="ospedale/medici.cs" Line="1" Column="1" />
+      <File FileName="ospedale/pazienti.cs" Line="53" Column="10" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ospedale" expanded="True" selected="True">
+            <Node name="ospedale" expanded="True">
+              <Node name="dataset" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ospedale PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
