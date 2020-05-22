@@ -46,7 +46,7 @@ class gestore:
                 self.cont["malattie"].append(i)
 
 
-        self.coronavirus = "La malattia da coronavirus (COVID-19) è una malattia infettiva causata da un nuovo virus. Il virus causa una malattia respiratoria (come l'influenza) con sintomi quali tosse, febbre e, nei casi più gravi, difficoltà respiratorie. Puoi proteggerti lavandoti spesso le mani, evitando di toccarti il viso ed evitando il contatto ravvicinato con persone che non stanno bene (mantieni un metro di distanza)."
+        self.coronavirus = "La malattia da coronavirus (COVID-19) è una malattia infettiva causata da un nuovo virus. Il virus causa una malattia respiratoria (come l'influenza) con sintomi quali tosse febbre e nei casi più gravi difficoltà respiratorie. Puoi proteggerti lavandoti spesso le mani evitando di toccarti il viso ed evitando il contatto ravvicinato con persone che non stanno bene (mantieni un metro di distanza)."
 
     ## Prende la parola, la cerca nel dataset per poi metterla tutta nel set
     def setting(self, parola):

@@ -36,6 +36,7 @@ class inizio_class():
         self.casi = self.dati.loc[self.dati["Country/Region"] == citta].values[0][4:]
         self.decessi = self.decessi.loc[self.decessi["Country/Region"] == citta].values[0][4:]
         self.ricoverati = self.ricoverati.loc[self.ricoverati["Country/Region"] == citta].values[0][4:]
+        self.giorni = self.dati.keys()[4:]
 
     def probabilita(self,prob_citta):
         # https://stackoverflow.com/questions/17388213/find-the-similarity-metric-between-two-strings
@@ -82,23 +83,25 @@ class inizio_class():
         if richiesta == 'a':
             visualizza(self.citta)
         elif richiesta == 'b':
-            crea_ex(self.casi,self.decessi,self.ricoverati)
+            crea_ex(self.casi,self.decessi,self.ricoverati,self.giorni)
         elif richiesta == 'c':
             pass
 
 
-def crea_ex(infetti,decessi,ricoverati):
+def crea_ex(infetti,decessi,ricoverati,giorni):
     excel_file = xlsxwriter.Workbook('dati.xlsx')
     excel_pagina = excel_file.add_worksheet()
-    excel_pagina.write(0,0,"Giorno")
-    excel_pagina.write(0,1,"Infetti")
-    excel_pagina.write(0,2,"Decessi")
-    excel_pagina.write(0,3,"Ricoverati")
+    excel_pagina.write(0,0,"Giorno_Cont")
+    excel_pagina.write(0, 1, "Giorno")
+    excel_pagina.write(0,2,"Infetti")
+    excel_pagina.write(0,3,"Decessi")
+    excel_pagina.write(0,4,"Ricoverati")
     for i in range(len(infetti)):
         excel_pagina.write(i+1, 0, i)
-        excel_pagina.write(i+1,1,infetti[i])
-        excel_pagina.write(i+1, 2, decessi[i])
-        excel_pagina.write(i+1, 3, ricoverati[i])
+        excel_pagina.write(i + 1, 1, giorni[i])
+        excel_pagina.write(i+1,2,infetti[i])
+        excel_pagina.write(i+1, 3, decessi[i])
+        excel_pagina.write(i+1, 4, ricoverati[i])
     excel_file.close()
 
 
