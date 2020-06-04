@@ -1,0 +1,73 @@
+#quadrato {
+    width: 70%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 50px auto 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+form {
+    display: block;
+    width: 100%;
+}
+#testo_accedi {
+    display: block;
+    font-size: 30px;
+    color: #474846;
+    line-height: 1.2;
+    text-align: center;
+    border-bottom: 40px;
+}
+.input-field {
+    background-color: #fff;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 5px 25vw 5px 13px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.input_box_ {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+.color_simbol {
+    color: gray;
+}
+input[type="text"], input[type="password"], textarea, select {
+    outline: none;
+}
+.bottone {
+    margin: 10px 10px 10px 10px;
+    width: 120px;
+    background-color: #fff;
+    padding: 1px 1px 1px 1px;
+    border-radius: 8px;
+    transition-duration: 5s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.bottone:hover {
+     background: #829aff;
+}
+.togli_link {
+    text-decoration: none;
+    color: black;
+}
+.togli_link:hover {
+    color: black;
+    text-decoration: none;
+}
+.togli_back {
+    background-color: rgba(0,0,0,0);
+}
+.medici {
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+}

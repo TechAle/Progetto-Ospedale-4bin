@@ -1,0 +1,15 @@
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.csprojAssemblyReference.cache
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\MainWindow.g.cs
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\App.g.cs
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale_MarkupCompile.cache
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale_MarkupCompile.lref
+C:\Users\thega\source\repos\ospedale\ospedale\bin\Debug\ospedale.exe.config
+C:\Users\thega\source\repos\ospedale\ospedale\bin\Debug\ospedale.exe
+C:\Users\thega\source\repos\ospedale\ospedale\bin\Debug\ospedale.pdb
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\MainWindow.baml
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.g.resources
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.Properties.Resources.resources
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.csproj.GenerateResource.cache
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.csproj.CoreCompileInputs.cache
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.exe
+C:\Users\thega\source\repos\ospedale\ospedale\obj\Debug\ospedale.pdb
