@@ -1,3 +1,0 @@
-per poter avviare tutti i programmi senza problema, fare copia incolla su terminale delle seguenti righe:
-pip install -U bs4
-pip install -U requests
