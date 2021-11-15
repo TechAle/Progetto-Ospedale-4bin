@@ -1186,7 +1186,7 @@ pandas==1.0.3
     six==1.14.0
   pytz==2019.3
 pipdeptree==0.13.2
-  pip==19.2.3
+  pip==21.1
 pyglet==1.5.5
 pyrr==0.10.3
   multipledispatch==0.6.0
