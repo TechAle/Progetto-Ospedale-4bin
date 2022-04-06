@@ -121,7 +121,7 @@ jupyter==1.0.0
       ipython-genutils==0.2.0
       six==1.14.0
     widgetsnbextension==3.5.1
-      notebook==6.4.1
+      notebook==6.4.10
         ipykernel==5.2.1
           appnope==0.1.0
           ipython==7.13.0
@@ -365,7 +365,7 @@ jupyter==1.0.0
       decorator==4.4.2
       ipython-genutils==0.2.0
       six==1.14.0
-  notebook==6.4.1
+  notebook==6.4.10
     ipykernel==5.2.1
       appnope==0.1.0
       ipython==7.13.0
